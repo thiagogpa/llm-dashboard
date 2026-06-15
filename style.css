@@ -411,6 +411,13 @@ h1 { font-size: 16px; font-weight: 700; letter-spacing: .5px; color: var(--text)
   .name-text { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
   .name-cell .model-id, .badge-estimated { display: none; }
 
+  /* Shorten column headers to fit narrow widths */
+  #model-table th { overflow: hidden; }
+  #model-table th.col-quality { font-size: 0; width: 52px; }
+  #model-table th.col-quality::after { content: 'Score'; font-size: 10px; color: var(--muted); font-weight: 700; letter-spacing: .4px; }
+  #model-table th#price-th { font-size: 0; }
+  #model-table th#price-th::after { content: '$/mo'; font-size: 10px; color: var(--muted); font-weight: 700; letter-spacing: .4px; }
+
   /* Quality: number only, no bar */
   .quality-bar-wrap { display: none; }
   .quality-score { width: auto; }
