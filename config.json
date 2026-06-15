@@ -1,0 +1,45 @@
+{
+  "budget_ceiling_usd_month": 200,
+  "equivalence_threshold": 0.90,
+  "equivalence_floor_threshold": 0.85,
+  "quality_source": "llm-stats",
+  "profiles": {
+    "orchestrator": {
+      "name": "Orchestrator",
+      "hermes_slot": "model.default",
+      "description": "Hermes main agent — planning, coordination",
+      "weights": { "agents": 0.60, "reasoning": 0.40 },
+      "anchor": "anthropic/claude-opus-4.7",
+      "monthly_input_tokens": 15000000,
+      "monthly_output_tokens": 5000000
+    },
+    "subagent": {
+      "name": "Subagent",
+      "hermes_slot": "delegation.model (global)",
+      "description": "All Hermes delegated subtasks — one shared model",
+      "weights": { "coding": 0.50, "reasoning": 0.50 },
+      "anchor": "anthropic/claude-sonnet-4.6",
+      "monthly_input_tokens": 30000000,
+      "monthly_output_tokens": 10000000
+    },
+    "coding": {
+      "name": "Coding",
+      "hermes_slot": "--model (CLI)",
+      "description": "Your own coding sessions",
+      "weights": { "coding": 1.0 },
+      "anchor": "anthropic/claude-sonnet-4.6",
+      "monthly_input_tokens": 7500000,
+      "monthly_output_tokens": 2500000
+    },
+    "overall": {
+      "name": "Overall",
+      "hermes_slot": "reference",
+      "description": "General-purpose reference ranking",
+      "weights": { "overall": 1.0 },
+      "anchor": "anthropic/claude-opus-4.7",
+      "monthly_input_tokens": 15000000,
+      "monthly_output_tokens": 5000000
+    }
+  },
+  "id_overrides": {}
+}

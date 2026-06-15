@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LLM Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="header-left">
+      <h1>LLM Dashboard</h1>
+      <span id="data-age"></span>
+    </div>
+    <div id="profile-tabs">
+      <button class="tab" data-profile="orchestrator">Orchestrator</button>
+      <button class="tab" data-profile="subagent">Subagent</button>
+      <button class="tab" data-profile="coding">Coding</button>
+      <button class="tab" data-profile="overall">Overall</button>
+    </div>
+  </header>
+
+  <div id="controls">
+    <div class="control-row">
+      <label class="ctrl-label">Budget ≤ $<input type="number" id="budget-input" min="0" step="10">/mo</label>
+      <div class="unit-toggle">
+        <button class="unit-btn active" data-unit="month">$/mo</button>
+        <button class="unit-btn" data-unit="mtok">$/Mtok</button>
+      </div>
+      <label class="ctrl-label checkbox-label">
+        <input type="checkbox" id="hermes-filter"> Hermes-ready only
+      </label>
+      <input type="text" id="provider-filter" placeholder="Filter provider…">
+      <input type="text" id="name-filter" placeholder="Filter name…">
+      <button id="usage-toggle" class="ghost-btn">Usage <span id="usage-arrow">▾</span></button>
+    </div>
+    <div id="usage-panel" class="collapsed">
+      <div class="usage-grid" id="usage-grid"></div>
+      <p class="usage-note">Changing usage re-ranks the table live. Run <code>python3 refresh/build_data.py</code> to persist.</p>
+    </div>
+  </div>
+
+  <div id="table-wrapper">
+    <table id="model-table">
+      <thead>
+        <tr>
+          <th data-sort="rank" class="col-rank">#</th>
+          <th data-sort="name" class="col-name">Model</th>
+          <th data-sort="provider" class="col-provider">Provider</th>
+          <th class="col-hermes" title="Native Hermes provider support">H</th>
+          <th data-sort="quality" class="col-quality">Quality</th>
+          <th data-sort="price" class="col-price" id="price-th">Price</th>
+          <th data-sort="value" class="col-value">Value</th>
+        </tr>
+      </thead>
+      <tbody id="model-tbody"></tbody>
+    </table>
+    <div id="table-empty" class="hidden">No models match the current filters.</div>
+  </div>
+
+  <div id="subs-section">
+    <h2>Flat-Rate Plans <span class="sub-note" id="subs-stale"></span></h2>
+    <div id="subs-grid"></div>
+  </div>
+
+  <div id="drawer-overlay" class="hidden"></div>
+  <aside id="drawer" class="drawer-closed">
+    <div id="drawer-header">
+      <div>
+        <h3 id="drawer-title">Equivalents</h3>
+        <p id="drawer-subtitle"></p>
+      </div>
+      <button id="drawer-close" title="Close">×</button>
+    </div>
+    <div id="drawer-anchor"></div>
+    <div id="drawer-list"></div>
+  </aside>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

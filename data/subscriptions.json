@@ -1,0 +1,127 @@
+{
+  "fetched_at": "2026-06-15",
+  "source": "seed — refresh with: hermes run 'research current LLM subscription plan prices and update ~/llm-dashboard/data/subscriptions.json with source_url and fetched_at per entry'",
+  "plans": [
+    {
+      "id": "claude-pro",
+      "name": "Claude Pro",
+      "provider": "Anthropic",
+      "price_usd_month": 20,
+      "includes_models": ["claude-opus-4.7", "claude-sonnet-4.6", "claude-haiku-4.5"],
+      "notable": "~45 Opus messages/5h, unlimited Sonnet",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "claude-max-5x",
+      "name": "Claude Max (5×)",
+      "provider": "Anthropic",
+      "price_usd_month": 100,
+      "includes_models": ["claude-opus-4.7", "claude-sonnet-4.6", "claude-haiku-4.5"],
+      "notable": "5× Pro usage limits",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "claude-max-20x",
+      "name": "Claude Max (20×)",
+      "provider": "Anthropic",
+      "price_usd_month": 200,
+      "includes_models": ["claude-opus-4.7", "claude-sonnet-4.6", "claude-haiku-4.5"],
+      "notable": "20× Pro usage limits",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "provider": "OpenAI",
+      "price_usd_month": 20,
+      "includes_models": ["gpt-5", "gpt-4o", "o4-mini"],
+      "notable": "Limited GPT-5 access",
+      "source_url": "https://openai.com/chatgpt/pricing",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "chatgpt-pro",
+      "name": "ChatGPT Pro",
+      "provider": "OpenAI",
+      "price_usd_month": 200,
+      "includes_models": ["gpt-5", "gpt-5.5", "o3-pro", "o4-mini"],
+      "notable": "Unlimited GPT-5, o3 Pro access",
+      "source_url": "https://openai.com/chatgpt/pricing",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "gemini-advanced",
+      "name": "Google One AI Premium",
+      "provider": "Google",
+      "price_usd_month": 19.99,
+      "includes_models": ["gemini-3.1-pro", "gemini-3.5-flash"],
+      "notable": "Includes 2TB Drive + Gemini Advanced",
+      "source_url": "https://one.google.com/about/plans",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "deepseek-pro",
+      "name": "DeepSeek Pro",
+      "provider": "DeepSeek",
+      "price_usd_month": 8,
+      "includes_models": ["deepseek-v4-pro", "deepseek-r1"],
+      "notable": "~50 priority messages/day",
+      "source_url": "https://chat.deepseek.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "kimi-plus",
+      "name": "Kimi Plus",
+      "provider": "Moonshot AI",
+      "price_usd_month": 9.9,
+      "includes_models": ["kimi-k2.6"],
+      "notable": "Extended context and priority access",
+      "source_url": "https://kimi.ai",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "qwen-plus-sub",
+      "name": "Tongyi Qianwen Plus",
+      "provider": "Alibaba",
+      "price_usd_month": 9,
+      "includes_models": ["qwen3-max", "qwen3.7-max"],
+      "notable": "Chinese domestic pricing; ~¥69/mo",
+      "source_url": "https://tongyi.aliyun.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "glm-plus",
+      "name": "ChatGLM Plus",
+      "provider": "Zhipu AI",
+      "price_usd_month": 8,
+      "includes_models": ["glm-5.1", "glm-5"],
+      "notable": "Chinese domestic; ~¥59/mo",
+      "source_url": "https://chatglm.cn",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "minimax-pro",
+      "name": "MiniMax Pro",
+      "provider": "MiniMax",
+      "price_usd_month": 7,
+      "includes_models": ["minimax-m3", "minimax-m2.7"],
+      "notable": "Chinese domestic; ~¥49/mo",
+      "source_url": "https://hailuoai.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    }
+  ]
+}

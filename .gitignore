@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/models.json
+data/prices.json
+data/quality.json
