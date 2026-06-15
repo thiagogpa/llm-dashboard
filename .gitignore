@@ -1,5 +1,8 @@
 __pycache__/
 *.pyc
+*.pyo
+.pytest_cache/
+node_modules/
 data/models.json
 data/prices.json
 data/quality.json
