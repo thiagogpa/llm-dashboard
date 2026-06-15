@@ -1,0 +1,19 @@
+Research current LLM subscription plan prices and update /home/lain/llm-dashboard/data/subscriptions.json.
+
+First, read the current file to see existing entries. Then visit each provider's official pricing page and verify the current monthly price in USD:
+
+- Claude Pro / Max: https://claude.ai/upgrade
+- ChatGPT Plus / Pro: https://openai.com/chatgpt/pricing
+- Google One AI Premium: https://one.google.com/about/plans
+- DeepSeek Pro: https://chat.deepseek.com
+- Kimi Plus: https://kimi.ai
+- Tongyi Qianwen Plus: https://tongyi.aliyun.com
+- ChatGLM Plus: https://chatglm.cn
+- MiniMax Pro: https://hailuoai.com
+
+For each plan update: price_usd_month (convert to USD if shown in CNY), notable (key feature summary), source_url, fetched_at (today's date). Set confidence to "confirmed" for prices you verified directly, "estimated" for prices you couldn't verify.
+
+After updating subscriptions.json, run:
+  python3 /home/lain/llm-dashboard/refresh/build_data.py
+
+Report a summary of what changed (price increases, decreases, new plans, failed lookups).
