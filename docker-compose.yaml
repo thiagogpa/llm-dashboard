@@ -1,0 +1,27 @@
+services:
+  llm-dashboard:
+    image: nginx:alpine
+    container_name: llm-dashboard
+    restart: unless-stopped
+    ports:
+      - "8742:80"
+    volumes:
+      - .:/usr/share/nginx/html:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.llm-dashboard.entrypoints=http"
+      - "traefik.http.routers.llm-dashboard.rule=Host(`llm-dashboard.example.com`)"
+      - "traefik.http.middlewares.llm-dashboard-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.llm-dashboard.middlewares=llm-dashboard-https-redirect"
+      - "traefik.http.routers.llm-dashboard-secure.entrypoints=https"
+      - "traefik.http.routers.llm-dashboard-secure.rule=Host(`llm-dashboard.example.com`)"
+      - "traefik.http.routers.llm-dashboard-secure.tls=true"
+      - "traefik.http.routers.llm-dashboard-secure.service=llm-dashboard"
+      - "traefik.http.services.llm-dashboard.loadbalancer.server.port=80"
+      - "traefik.docker.network=proxy"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

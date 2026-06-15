@@ -71,10 +71,11 @@ open http://localhost:8080
 
 ## Docker deployment
 
-A Docker Compose file is provided at `docker-compose/llm-dashboard/docker-compose.yaml`. It serves the dashboard with nginx:alpine and integrates with a Traefik reverse proxy:
+A `docker-compose.yaml` is included at the project root. It serves the dashboard with nginx:alpine and integrates with a Traefik reverse proxy:
 
 ```bash
-docker compose -f docker-compose/llm-dashboard/docker-compose.yaml up -d
+# Edit the Host rule in docker-compose.yaml to match your domain, then:
+docker compose up -d
 ```
 
 The container mounts the project directory read-only, so updating `data/models.json` on the host is immediately reflected — no restart needed.
