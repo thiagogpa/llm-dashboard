@@ -381,3 +381,52 @@ h1 { font-size: 16px; font-weight: 700; letter-spacing: .5px; color: var(--text)
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ─── Mobile (≤640px) ─── */
+@media (max-width: 640px) {
+  body { -webkit-text-size-adjust: 100%; }
+
+  /* Header: profile tabs below title in 2×2 grid */
+  header { flex-direction: column; align-items: stretch; padding: 10px 14px; gap: 8px; }
+  #profile-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .tab { text-align: center; padding: 8px 4px; }
+
+  /* Controls: tighter spacing */
+  #controls { padding: 8px 14px 0; }
+  .control-row { gap: 8px; }
+  #provider-filter, #name-filter { width: 90px; }
+  #usage-panel:not(.collapsed) { max-height: 300px; }
+
+  /* Table: hide provider + hermes columns, compress remaining */
+  #table-wrapper { padding: 8px 12px; }
+  .col-provider, .col-hermes, .provider-cell, .hermes-cell { display: none; }
+  .col-rank    { width: 24px; }
+  .col-quality { width: 44px; }
+  .col-price   { width: 70px; }
+  .col-value   { width: 58px; }
+  #model-table th, #model-table td { padding: 8px 5px; }
+
+  /* Name: single truncated line, hide model-id and est badge */
+  .name-cell { overflow: hidden; }
+  .name-text { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .name-cell .model-id, .badge-estimated { display: none; }
+
+  /* Quality: number only, no bar */
+  .quality-bar-wrap { display: none; }
+  .quality-score { width: auto; }
+
+  /* Subscriptions: 2-column grid */
+  #subs-section { padding: 10px 14px 20px; }
+  #subs-grid { grid-template-columns: 1fr 1fr; }
+  .sub-card { padding: 10px; }
+
+  /* Drawer: slide up as bottom sheet */
+  #drawer {
+    top: auto; left: 0; right: 0; bottom: 0;
+    width: 100%; height: 65vh;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    border-radius: 14px 14px 0 0;
+  }
+  #drawer.drawer-closed { transform: translateY(100%); }
+}

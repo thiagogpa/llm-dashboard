@@ -173,7 +173,7 @@ function renderTable() {
     return `<tr class="${rowClass}" data-id="${r.id}">
       <td class="rank-cell">${i + 1}</td>
       <td class="name-cell">
-        ${r.name}${dqBadge}
+        <span class="name-text">${r.name}${dqBadge}</span>
         <span class="model-id">${r.id}</span>
       </td>
       <td class="provider-cell">${r.provider}</td>
