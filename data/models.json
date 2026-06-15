@@ -1,0 +1,2387 @@
+{
+  "generated_at": "2026-06-15",
+  "prices_date": "2026-06-15",
+  "quality_date": "2026-06-15",
+  "quality_source": "seed (no API key)",
+  "subs_date": "2026-06-15",
+  "model_count": 60,
+  "unmatched_price_only": 264,
+  "models": [
+    {
+      "id": "anthropic/claude-opus-4",
+      "name": "Anthropic: Claude Opus 4",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 75.0,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 67.6,
+        "reasoning": 71.1,
+        "coding": 56.1,
+        "agents": 47.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 56.76,
+        "subagent": 63.6,
+        "coding": 56.1,
+        "overall": 67.6
+      },
+      "profile_costs": {
+        "orchestrator": 600.0,
+        "subagent": 1200.0,
+        "coding": 300.0,
+        "overall": 600.0
+      },
+      "profile_values": {
+        "orchestrator": 0.04,
+        "subagent": 0.04,
+        "coding": 0.04,
+        "overall": 0.04
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 67.2,
+        "reasoning": 64.3,
+        "coding": 51.7,
+        "agents": 43.9
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 52.06,
+        "subagent": 58.0,
+        "coding": 51.7,
+        "overall": 67.2
+      },
+      "profile_costs": {
+        "orchestrator": 200.0,
+        "subagent": 400.0,
+        "coding": 100.0,
+        "overall": 200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.12,
+        "subagent": 0.1,
+        "coding": 0.1,
+        "overall": 0.11
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8-fast",
+      "name": "Anthropic: Claude Opus 4.8 (Fast)",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 67.2,
+        "reasoning": 64.3,
+        "coding": 51.7,
+        "agents": 43.9
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 52.06,
+        "subagent": 58.0,
+        "coding": 51.7,
+        "overall": 67.2
+      },
+      "profile_costs": {
+        "orchestrator": 400.0,
+        "subagent": 800.0,
+        "coding": 200.0,
+        "overall": 400.0
+      },
+      "profile_values": {
+        "orchestrator": 0.06,
+        "subagent": 0.05,
+        "coding": 0.05,
+        "overall": 0.06
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 66.6,
+        "reasoning": 70.5,
+        "coding": 56.8,
+        "agents": 50.3
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 58.38,
+        "subagent": 63.65,
+        "coding": 56.8,
+        "overall": 66.6
+      },
+      "profile_costs": {
+        "orchestrator": 400.0,
+        "subagent": 800.0,
+        "coding": 200.0,
+        "overall": 400.0
+      },
+      "profile_values": {
+        "orchestrator": 0.07,
+        "subagent": 0.06,
+        "coding": 0.05,
+        "overall": 0.06
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "name": "OpenAI: GPT-5.2 Pro",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 21.0,
+      "output_per_mtok": 168.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 63.4,
+        "reasoning": 56.0,
+        "coding": null,
+        "agents": 28.6
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 39.56,
+        "subagent": 56.0,
+        "coding": null,
+        "overall": 63.4
+      },
+      "profile_costs": {
+        "orchestrator": 1155.0,
+        "subagent": 2310.0,
+        "coding": 577.5,
+        "overall": 1155.0
+      },
+      "profile_values": {
+        "orchestrator": 0.02,
+        "subagent": 0.02,
+        "coding": null,
+        "overall": 0.02
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "OpenAI: GPT-5.5",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 30.0,
+      "is_free": false,
+      "context_length": 1050000,
+      "scores": {
+        "overall": 61.6,
+        "reasoning": 60.7,
+        "coding": 50.1,
+        "agents": 42.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 49.6,
+        "subagent": 55.4,
+        "coding": 50.1,
+        "overall": 61.6
+      },
+      "profile_costs": {
+        "orchestrator": 225.0,
+        "subagent": 450.0,
+        "coding": 112.5,
+        "overall": 225.0
+      },
+      "profile_values": {
+        "orchestrator": 0.1,
+        "subagent": 0.09,
+        "coding": 0.08,
+        "overall": 0.09
+      }
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "OpenAI: GPT-5.4",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 15.0,
+      "is_free": false,
+      "context_length": 1050000,
+      "scores": {
+        "overall": 59.6,
+        "reasoning": 54.6,
+        "coding": 42.5,
+        "agents": 36.5
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 43.74,
+        "subagent": 48.55,
+        "coding": 42.5,
+        "overall": 59.6
+      },
+      "profile_costs": {
+        "orchestrator": 112.5,
+        "subagent": 225.0,
+        "coding": 56.25,
+        "overall": 112.5
+      },
+      "profile_values": {
+        "orchestrator": 0.18,
+        "subagent": 0.15,
+        "coding": 0.14,
+        "overall": 0.18
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Google: Gemini 3.5 Flash",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 9.0,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 57.3,
+        "reasoning": 55.7,
+        "coding": 45.8,
+        "agents": 40.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 46.4,
+        "subagent": 50.75,
+        "coding": 45.8,
+        "overall": 57.3
+      },
+      "profile_costs": {
+        "orchestrator": 67.5,
+        "subagent": 135.0,
+        "coding": 33.75,
+        "overall": 67.5
+      },
+      "profile_values": {
+        "orchestrator": 0.32,
+        "subagent": 0.26,
+        "coding": 0.26,
+        "overall": 0.28
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "MoonshotAI: Kimi K2.6",
+      "provider": "moonshotai",
+      "hermes_ready": true,
+      "hermes_provider": "kimi-coding",
+      "input_per_mtok": 0.68,
+      "output_per_mtok": 3.41,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 57.3,
+        "reasoning": 57.2,
+        "coding": 43.2,
+        "agents": 37.1
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 45.14,
+        "subagent": 50.2,
+        "coding": 43.2,
+        "overall": 57.3
+      },
+      "profile_costs": {
+        "orchestrator": 27.25,
+        "subagent": 54.5,
+        "coding": 13.625,
+        "overall": 27.25
+      },
+      "profile_values": {
+        "orchestrator": 0.77,
+        "subagent": 0.64,
+        "coding": 0.6,
+        "overall": 0.7
+      }
+    },
+    {
+      "id": "qwen/qwen3.7-max",
+      "name": "Qwen: Qwen3.7 Max",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 3.75,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 56.6,
+        "reasoning": 59.4,
+        "coding": 47.7,
+        "agents": 39.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 47.28,
+        "subagent": 53.55,
+        "coding": 47.7,
+        "overall": 56.6
+      },
+      "profile_costs": {
+        "orchestrator": 37.5,
+        "subagent": 75.0,
+        "coding": 18.75,
+        "overall": 37.5
+      },
+      "profile_values": {
+        "orchestrator": 0.59,
+        "subagent": 0.5,
+        "coding": 0.48,
+        "overall": 0.5
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "name": "OpenAI: GPT-5.1",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 56.2,
+        "reasoning": 47.0,
+        "coding": 30.8,
+        "agents": null
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 47.0,
+        "subagent": 38.9,
+        "coding": 30.8,
+        "overall": 56.2
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.32,
+        "subagent": 0.2,
+        "coding": 0.17,
+        "overall": 0.27
+      }
+    },
+    {
+      "id": "openai/gpt-5.1-chat",
+      "name": "OpenAI: GPT-5.1 Chat",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 56.2,
+        "reasoning": 47.0,
+        "coding": 30.8,
+        "agents": null
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 47.0,
+        "subagent": 38.9,
+        "coding": 30.8,
+        "overall": 56.2
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.32,
+        "subagent": 0.2,
+        "coding": 0.17,
+        "overall": 0.27
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 55.6,
+        "reasoning": 57.8,
+        "coding": 48.6,
+        "agents": 40.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 47.24,
+        "subagent": 53.2,
+        "coding": 48.6,
+        "overall": 55.6
+      },
+      "profile_costs": {
+        "orchestrator": 200.0,
+        "subagent": 400.0,
+        "coding": 100.0,
+        "overall": 200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.11,
+        "subagent": 0.09,
+        "coding": 0.09,
+        "overall": 0.09
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7-fast",
+      "name": "Anthropic: Claude Opus 4.7 (Fast)",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 30.0,
+      "output_per_mtok": 150.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 55.6,
+        "reasoning": 57.8,
+        "coding": 48.6,
+        "agents": 40.2
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 47.24,
+        "subagent": 53.2,
+        "coding": 48.6,
+        "overall": 55.6
+      },
+      "profile_costs": {
+        "orchestrator": 1200.0,
+        "subagent": 2400.0,
+        "coding": 600.0,
+        "overall": 1200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.02,
+        "subagent": 0.02,
+        "coding": 0.02,
+        "overall": 0.02
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "name": "OpenAI: GPT-5.2",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 55.5,
+        "reasoning": 52.6,
+        "coding": 34.3,
+        "agents": 24.9
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 35.98,
+        "subagent": 43.45,
+        "coding": 34.3,
+        "overall": 55.5
+      },
+      "profile_costs": {
+        "orchestrator": 96.25,
+        "subagent": 192.5,
+        "coding": 48.125,
+        "overall": 96.25
+      },
+      "profile_values": {
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.14,
+        "overall": 0.19
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "name": "OpenAI: GPT-5.2 Chat",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 55.5,
+        "reasoning": 52.6,
+        "coding": 34.3,
+        "agents": 24.9
+      },
+      "data_quality": "confirmed",
+      "profile_scores": {
+        "orchestrator": 35.98,
+        "subagent": 43.45,
+        "coding": 34.3,
+        "overall": 55.5
+      },
+      "profile_costs": {
+        "orchestrator": 96.25,
+        "subagent": 192.5,
+        "coding": 48.125,
+        "overall": 96.25
+      },
+      "profile_values": {
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.14,
+        "overall": 0.19
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "name": "Anthropic: Claude Opus 4.6",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 53.7,
+        "reasoning": 58.0,
+        "coding": 43.0,
+        "agents": 34.4
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 43.84,
+        "subagent": 50.5,
+        "coding": 43.0,
+        "overall": 53.7
+      },
+      "profile_costs": {
+        "orchestrator": 200.0,
+        "subagent": 400.0,
+        "coding": 100.0,
+        "overall": 200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.1,
+        "subagent": 0.09,
+        "coding": 0.08,
+        "overall": 0.09
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.6-fast",
+      "name": "Anthropic: Claude Opus 4.6 (Fast)",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 30.0,
+      "output_per_mtok": 150.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 53.7,
+        "reasoning": 58.0,
+        "coding": 43.0,
+        "agents": 34.4
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 43.84,
+        "subagent": 50.5,
+        "coding": 43.0,
+        "overall": 53.7
+      },
+      "profile_costs": {
+        "orchestrator": 1200.0,
+        "subagent": 2400.0,
+        "coding": 600.0,
+        "overall": 1200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.02,
+        "subagent": 0.01,
+        "coding": 0.01,
+        "overall": 0.01
+      }
+    },
+    {
+      "id": "deepseek/deepseek-r1",
+      "name": "DeepSeek: R1",
+      "provider": "deepseek",
+      "hermes_ready": true,
+      "hermes_provider": "deepseek",
+      "input_per_mtok": 0.7,
+      "output_per_mtok": 2.5,
+      "is_free": false,
+      "context_length": 163840,
+      "scores": {
+        "overall": 53.5,
+        "reasoning": 62.0,
+        "coding": 43.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 38.0,
+        "subagent": 52.5,
+        "coding": 43.0,
+        "overall": 53.5
+      },
+      "profile_costs": {
+        "orchestrator": 23.0,
+        "subagent": 46.0,
+        "coding": 11.5,
+        "overall": 23.0
+      },
+      "profile_values": {
+        "orchestrator": 0.77,
+        "subagent": 0.8,
+        "coding": 0.71,
+        "overall": 0.77
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro",
+      "provider": "deepseek",
+      "hermes_ready": true,
+      "hermes_provider": "deepseek",
+      "input_per_mtok": 0.435,
+      "output_per_mtok": 0.87,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 53.1,
+        "reasoning": 55.5,
+        "coding": 42.8,
+        "agents": 19.8
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 34.08,
+        "subagent": 49.15,
+        "coding": 42.8,
+        "overall": 53.1
+      },
+      "profile_costs": {
+        "orchestrator": 10.875,
+        "subagent": 21.75,
+        "coding": 5.4375,
+        "overall": 10.875
+      },
+      "profile_values": {
+        "orchestrator": 1.46,
+        "subagent": 1.57,
+        "coding": 1.49,
+        "overall": 1.62
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "name": "Google: Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 53.1,
+        "reasoning": 58.0,
+        "coding": 42.8,
+        "agents": 15.1
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 32.26,
+        "subagent": 50.4,
+        "coding": 42.8,
+        "overall": 53.1
+      },
+      "profile_costs": {
+        "orchestrator": 90.0,
+        "subagent": 180.0,
+        "coding": 45.0,
+        "overall": 90.0
+      },
+      "profile_values": {
+        "orchestrator": 0.17,
+        "subagent": 0.2,
+        "coding": 0.18,
+        "overall": 0.2
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "is_free": false,
+      "context_length": 1048756,
+      "scores": {
+        "overall": 53.1,
+        "reasoning": 58.0,
+        "coding": 42.8,
+        "agents": 15.1
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 32.26,
+        "subagent": 50.4,
+        "coding": 42.8,
+        "overall": 53.1
+      },
+      "profile_costs": {
+        "orchestrator": 90.0,
+        "subagent": 180.0,
+        "coding": 45.0,
+        "overall": 90.0
+      },
+      "profile_values": {
+        "orchestrator": 0.17,
+        "subagent": 0.2,
+        "coding": 0.18,
+        "overall": 0.2
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "name": "Anthropic: Claude Opus 4.5",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 53.0,
+        "reasoning": 53.1,
+        "coding": 39.3,
+        "agents": null
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 53.1,
+        "subagent": 46.2,
+        "coding": 39.3,
+        "overall": 53.0
+      },
+      "profile_costs": {
+        "orchestrator": 200.0,
+        "subagent": 400.0,
+        "coding": 100.0,
+        "overall": 200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.12,
+        "subagent": 0.08,
+        "coding": 0.07,
+        "overall": 0.09
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "name": "OpenAI: GPT-5",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 53.0,
+        "reasoning": 52.0,
+        "coding": 43.0,
+        "agents": 34.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 41.2,
+        "subagent": 47.5,
+        "coding": 43.0,
+        "overall": 53.0
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.28,
+        "subagent": 0.24,
+        "coding": 0.24,
+        "overall": 0.26
+      }
+    },
+    {
+      "id": "openai/gpt-5-chat",
+      "name": "OpenAI: GPT-5 Chat",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 53.0,
+        "reasoning": 52.0,
+        "coding": 43.0,
+        "agents": 34.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 41.2,
+        "subagent": 47.5,
+        "coding": 43.0,
+        "overall": 53.0
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.28,
+        "subagent": 0.24,
+        "coding": 0.24,
+        "overall": 0.26
+      }
+    },
+    {
+      "id": "openai/gpt-5-image",
+      "name": "OpenAI: GPT-5 Image",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 53.0,
+        "reasoning": 52.0,
+        "coding": 43.0,
+        "agents": 34.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 41.2,
+        "subagent": 47.5,
+        "coding": 43.0,
+        "overall": 53.0
+      },
+      "profile_costs": {
+        "orchestrator": 200.0,
+        "subagent": 400.0,
+        "coding": 100.0,
+        "overall": 200.0
+      },
+      "profile_values": {
+        "orchestrator": 0.1,
+        "subagent": 0.08,
+        "coding": 0.08,
+        "overall": 0.09
+      }
+    },
+    {
+      "id": "openai/o3",
+      "name": "OpenAI: o3",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 8.0,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 52.0,
+        "reasoning": 62.0,
+        "coding": 43.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 41.6,
+        "subagent": 52.5,
+        "coding": 43.0,
+        "overall": 52.0
+      },
+      "profile_costs": {
+        "orchestrator": 70.0,
+        "subagent": 140.0,
+        "coding": 35.0,
+        "overall": 70.0
+      },
+      "profile_values": {
+        "orchestrator": 0.28,
+        "subagent": 0.26,
+        "coding": 0.23,
+        "overall": 0.25
+      }
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b",
+      "name": "Qwen: Qwen3 235B A22B",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.455,
+      "output_per_mtok": 1.82,
+      "is_free": false,
+      "context_length": 131072,
+      "scores": {
+        "overall": 51.5,
+        "reasoning": 50.5,
+        "coding": 43.0,
+        "agents": 29.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 37.6,
+        "subagent": 46.75,
+        "coding": 43.0,
+        "overall": 51.5
+      },
+      "profile_costs": {
+        "orchestrator": 15.925,
+        "subagent": 31.85,
+        "coding": 7.9625,
+        "overall": 15.925
+      },
+      "profile_values": {
+        "orchestrator": 1.1,
+        "subagent": 1.02,
+        "coding": 1.02,
+        "overall": 1.07
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Anthropic: Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 50.8,
+        "reasoning": 47.2,
+        "coding": 36.1,
+        "agents": 14.2
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 27.4,
+        "subagent": 41.65,
+        "coding": 36.1,
+        "overall": 50.8
+      },
+      "profile_costs": {
+        "orchestrator": 120.0,
+        "subagent": 240.0,
+        "coding": 60.0,
+        "overall": 120.0
+      },
+      "profile_values": {
+        "orchestrator": 0.11,
+        "subagent": 0.12,
+        "coding": 0.11,
+        "overall": 0.14
+      }
+    },
+    {
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "provider": "meta-llama",
+      "hermes_ready": false,
+      "hermes_provider": null,
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 50.0,
+        "reasoning": 49.0,
+        "coding": 41.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 32.8,
+        "subagent": 45.0,
+        "coding": 41.0,
+        "overall": 50.0
+      },
+      "profile_costs": {
+        "orchestrator": 5.25,
+        "subagent": 10.5,
+        "coding": 2.625,
+        "overall": 5.25
+      },
+      "profile_values": {
+        "orchestrator": 2.91,
+        "subagent": 2.99,
+        "coding": 2.96,
+        "overall": 3.16
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.39,
+      "output_per_mtok": 2.34,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 49.8,
+        "reasoning": 48.3,
+        "coding": 29.6,
+        "agents": 37.5
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 41.82,
+        "subagent": 38.95,
+        "coding": 29.6,
+        "overall": 49.8
+      },
+      "profile_costs": {
+        "orchestrator": 17.55,
+        "subagent": 35.1,
+        "coding": 8.775,
+        "overall": 17.55
+      },
+      "profile_values": {
+        "orchestrator": 1.11,
+        "subagent": 0.77,
+        "coding": 0.64,
+        "overall": 0.94
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Google: Gemini 2.5 Pro",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 49.0,
+        "reasoning": 51.0,
+        "coding": 42.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 31.2,
+        "subagent": 46.5,
+        "coding": 42.0,
+        "overall": 49.0
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.21,
+        "subagent": 0.24,
+        "coding": 0.23,
+        "overall": 0.24
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "name": "Google: Gemini 2.5 Pro Preview 06-05",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 49.0,
+        "reasoning": 51.0,
+        "coding": 42.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 31.2,
+        "subagent": 46.5,
+        "coding": 42.0,
+        "overall": 49.0
+      },
+      "profile_costs": {
+        "orchestrator": 68.75,
+        "subagent": 137.5,
+        "coding": 34.375,
+        "overall": 68.75
+      },
+      "profile_values": {
+        "orchestrator": 0.21,
+        "subagent": 0.24,
+        "coding": 0.23,
+        "overall": 0.24
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "provider": "moonshotai",
+      "hermes_ready": true,
+      "hermes_provider": "kimi-coding",
+      "input_per_mtok": 0.375,
+      "output_per_mtok": 2.025,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 49.0,
+        "reasoning": 49.5,
+        "coding": 30.6,
+        "agents": 37.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 42.0,
+        "subagent": 40.05,
+        "coding": 30.6,
+        "overall": 49.0
+      },
+      "profile_costs": {
+        "orchestrator": 15.75,
+        "subagent": 31.5,
+        "coding": 7.875,
+        "overall": 15.75
+      },
+      "profile_values": {
+        "orchestrator": 1.24,
+        "subagent": 0.89,
+        "coding": 0.74,
+        "overall": 1.03
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "provider": "deepseek",
+      "hermes_ready": true,
+      "hermes_provider": "deepseek",
+      "input_per_mtok": 0.2288,
+      "output_per_mtok": 0.3432,
+      "is_free": false,
+      "context_length": 131072,
+      "scores": {
+        "overall": 48.5,
+        "reasoning": 50.0,
+        "coding": 41.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 30.8,
+        "subagent": 45.5,
+        "coding": 41.0,
+        "overall": 48.5
+      },
+      "profile_costs": {
+        "orchestrator": 5.148,
+        "subagent": 10.296,
+        "coding": 2.574,
+        "overall": 5.148
+      },
+      "profile_values": {
+        "orchestrator": 2.79,
+        "subagent": 3.08,
+        "coding": 3.02,
+        "overall": 3.13
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp",
+      "name": "DeepSeek: DeepSeek V3.2 Exp",
+      "provider": "deepseek",
+      "hermes_ready": true,
+      "hermes_provider": "deepseek",
+      "input_per_mtok": 0.27,
+      "output_per_mtok": 0.41,
+      "is_free": false,
+      "context_length": 163840,
+      "scores": {
+        "overall": 48.5,
+        "reasoning": 50.0,
+        "coding": 41.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 30.8,
+        "subagent": 45.5,
+        "coding": 41.0,
+        "overall": 48.5
+      },
+      "profile_costs": {
+        "orchestrator": 6.1,
+        "subagent": 12.2,
+        "coding": 3.05,
+        "overall": 6.1
+      },
+      "profile_values": {
+        "orchestrator": 2.35,
+        "subagent": 2.6,
+        "coding": 2.55,
+        "overall": 2.64
+      }
+    },
+    {
+      "id": "qwen/qwen3-max",
+      "name": "Qwen: Qwen3 Max",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.78,
+      "output_per_mtok": 3.9,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 48.0,
+        "reasoning": 50.0,
+        "coding": 42.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 36.8,
+        "subagent": 46.0,
+        "coding": 42.0,
+        "overall": 48.0
+      },
+      "profile_costs": {
+        "orchestrator": 31.2,
+        "subagent": 62.4,
+        "coding": 15.6,
+        "overall": 31.2
+      },
+      "profile_values": {
+        "orchestrator": 0.55,
+        "subagent": 0.51,
+        "coding": 0.51,
+        "overall": 0.51
+      }
+    },
+    {
+      "id": "qwen/qwen3-max-thinking",
+      "name": "Qwen: Qwen3 Max Thinking",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.78,
+      "output_per_mtok": 3.9,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 48.0,
+        "reasoning": 50.0,
+        "coding": 42.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 36.8,
+        "subagent": 46.0,
+        "coding": 42.0,
+        "overall": 48.0
+      },
+      "profile_costs": {
+        "orchestrator": 31.2,
+        "subagent": 62.4,
+        "coding": 15.6,
+        "overall": 31.2
+      },
+      "profile_values": {
+        "orchestrator": 0.55,
+        "subagent": 0.51,
+        "coding": 0.51,
+        "overall": 0.51
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k2",
+      "name": "MoonshotAI: Kimi K2 0711",
+      "provider": "moonshotai",
+      "hermes_ready": true,
+      "hermes_provider": "kimi-coding",
+      "input_per_mtok": 0.57,
+      "output_per_mtok": 2.3,
+      "is_free": false,
+      "context_length": 131072,
+      "scores": {
+        "overall": 47.5,
+        "reasoning": 48.0,
+        "coding": 38.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 36.0,
+        "subagent": 43.0,
+        "coding": 38.0,
+        "overall": 47.5
+      },
+      "profile_costs": {
+        "orchestrator": 20.05,
+        "subagent": 40.1,
+        "coding": 10.025,
+        "overall": 20.05
+      },
+      "profile_values": {
+        "orchestrator": 0.84,
+        "subagent": 0.75,
+        "coding": 0.72,
+        "overall": 0.79
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905",
+      "name": "MoonshotAI: Kimi K2 0905",
+      "provider": "moonshotai",
+      "hermes_ready": true,
+      "hermes_provider": "kimi-coding",
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.5,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 47.5,
+        "reasoning": 48.0,
+        "coding": 38.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 36.0,
+        "subagent": 43.0,
+        "coding": 38.0,
+        "overall": 47.5
+      },
+      "profile_costs": {
+        "orchestrator": 21.5,
+        "subagent": 43.0,
+        "coding": 10.75,
+        "overall": 21.5
+      },
+      "profile_values": {
+        "orchestrator": 0.78,
+        "subagent": 0.7,
+        "coding": 0.67,
+        "overall": 0.73
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k2-thinking",
+      "name": "MoonshotAI: Kimi K2 Thinking",
+      "provider": "moonshotai",
+      "hermes_ready": true,
+      "hermes_provider": "kimi-coding",
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.5,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 47.5,
+        "reasoning": 48.0,
+        "coding": 38.0,
+        "agents": 28.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 36.0,
+        "subagent": 43.0,
+        "coding": 38.0,
+        "overall": 47.5
+      },
+      "profile_costs": {
+        "orchestrator": 21.5,
+        "subagent": 43.0,
+        "coding": 10.75,
+        "overall": 21.5
+      },
+      "profile_values": {
+        "orchestrator": 0.78,
+        "subagent": 0.7,
+        "coding": 0.67,
+        "overall": 0.73
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "name": "Anthropic: Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "is_free": false,
+      "context_length": 1000000,
+      "scores": {
+        "overall": 46.4,
+        "reasoning": 40.0,
+        "coding": 31.1,
+        "agents": 21.8
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 29.08,
+        "subagent": 35.55,
+        "coding": 31.1,
+        "overall": 46.4
+      },
+      "profile_costs": {
+        "orchestrator": 120.0,
+        "subagent": 240.0,
+        "coding": 60.0,
+        "overall": 120.0
+      },
+      "profile_values": {
+        "orchestrator": 0.11,
+        "subagent": 0.1,
+        "coding": 0.1,
+        "overall": 0.13
+      }
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": "Google: Gemini 3 Flash Preview",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.0,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 46.1,
+        "reasoning": 48.4,
+        "coding": 30.2,
+        "agents": 10.4
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 25.6,
+        "subagent": 39.3,
+        "coding": 30.2,
+        "overall": 46.1
+      },
+      "profile_costs": {
+        "orchestrator": 22.5,
+        "subagent": 45.0,
+        "coding": 11.25,
+        "overall": 22.5
+      },
+      "profile_values": {
+        "orchestrator": 0.53,
+        "subagent": 0.61,
+        "coding": 0.51,
+        "overall": 0.68
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Google: Gemini 2.5 Flash",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 46.0,
+        "reasoning": 47.0,
+        "coding": 39.0,
+        "agents": 16.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 28.4,
+        "subagent": 43.0,
+        "coding": 39.0,
+        "overall": 46.0
+      },
+      "profile_costs": {
+        "orchestrator": 17.0,
+        "subagent": 34.0,
+        "coding": 8.5,
+        "overall": 17.0
+      },
+      "profile_values": {
+        "orchestrator": 0.78,
+        "subagent": 0.88,
+        "coding": 0.87,
+        "overall": 0.9
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash-image",
+      "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+      "provider": "google",
+      "hermes_ready": true,
+      "hermes_provider": "gemini",
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "is_free": false,
+      "context_length": 32768,
+      "scores": {
+        "overall": 46.0,
+        "reasoning": 47.0,
+        "coding": 39.0,
+        "agents": 16.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 28.4,
+        "subagent": 43.0,
+        "coding": 39.0,
+        "overall": 46.0
+      },
+      "profile_costs": {
+        "orchestrator": 17.0,
+        "subagent": 34.0,
+        "coding": 8.5,
+        "overall": 17.0
+      },
+      "profile_values": {
+        "orchestrator": 0.78,
+        "subagent": 0.88,
+        "coding": 0.87,
+        "overall": 0.9
+      }
+    },
+    {
+      "id": "openai/gpt-5-image-mini",
+      "name": "OpenAI: GPT-5 Image Mini",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 2.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 46.0,
+        "reasoning": 46.0,
+        "coding": 38.0,
+        "agents": 26.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 34.0,
+        "subagent": 42.0,
+        "coding": 38.0,
+        "overall": 46.0
+      },
+      "profile_costs": {
+        "orchestrator": 47.5,
+        "subagent": 95.0,
+        "coding": 23.75,
+        "overall": 47.5
+      },
+      "profile_values": {
+        "orchestrator": 0.33,
+        "subagent": 0.31,
+        "coding": 0.3,
+        "overall": 0.32
+      }
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "name": "OpenAI: GPT-5 Mini",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.0,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 46.0,
+        "reasoning": 46.0,
+        "coding": 38.0,
+        "agents": 26.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 34.0,
+        "subagent": 42.0,
+        "coding": 38.0,
+        "overall": 46.0
+      },
+      "profile_costs": {
+        "orchestrator": 13.75,
+        "subagent": 27.5,
+        "coding": 6.875,
+        "overall": 13.75
+      },
+      "profile_values": {
+        "orchestrator": 1.15,
+        "subagent": 1.06,
+        "coding": 1.05,
+        "overall": 1.11
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "OpenAI: o4 Mini",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 45.0,
+        "reasoning": 55.0,
+        "coding": 38.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 35.2,
+        "subagent": 46.5,
+        "coding": 38.0,
+        "overall": 45.0
+      },
+      "profile_costs": {
+        "orchestrator": 38.5,
+        "subagent": 77.0,
+        "coding": 19.25,
+        "overall": 38.5
+      },
+      "profile_values": {
+        "orchestrator": 0.43,
+        "subagent": 0.42,
+        "coding": 0.37,
+        "overall": 0.39
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "name": "OpenAI: o4 Mini High",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 45.0,
+        "reasoning": 55.0,
+        "coding": 38.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 35.2,
+        "subagent": 46.5,
+        "coding": 38.0,
+        "overall": 45.0
+      },
+      "profile_costs": {
+        "orchestrator": 38.5,
+        "subagent": 77.0,
+        "coding": 19.25,
+        "overall": 38.5
+      },
+      "profile_values": {
+        "orchestrator": 0.43,
+        "subagent": 0.42,
+        "coding": 0.37,
+        "overall": 0.39
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "name": "OpenAI: GPT-5.4 Mini",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 4.5,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 42.3,
+        "reasoning": 40.3,
+        "coding": 33.1,
+        "agents": 8.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 20.92,
+        "subagent": 36.7,
+        "coding": 33.1,
+        "overall": 42.3
+      },
+      "profile_costs": {
+        "orchestrator": 33.75,
+        "subagent": 67.5,
+        "coding": 16.875,
+        "overall": 33.75
+      },
+      "profile_values": {
+        "orchestrator": 0.29,
+        "subagent": 0.38,
+        "coding": 0.37,
+        "overall": 0.42
+      }
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
+      "provider": "deepseek",
+      "hermes_ready": true,
+      "hermes_provider": "deepseek",
+      "input_per_mtok": 0.21,
+      "output_per_mtok": 0.79,
+      "is_free": false,
+      "context_length": 163840,
+      "scores": {
+        "overall": 42.0,
+        "reasoning": 44.0,
+        "coding": 37.0,
+        "agents": 16.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 27.2,
+        "subagent": 40.5,
+        "coding": 37.0,
+        "overall": 42.0
+      },
+      "profile_costs": {
+        "orchestrator": 7.1,
+        "subagent": 14.2,
+        "coding": 3.55,
+        "overall": 7.1
+      },
+      "profile_values": {
+        "orchestrator": 1.79,
+        "subagent": 1.99,
+        "coding": 1.98,
+        "overall": 1.96
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "name": "Mistral: Mistral Large 3 2512",
+      "provider": "mistralai",
+      "hermes_ready": false,
+      "hermes_provider": null,
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 1.5,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 41.0,
+        "reasoning": 46.0,
+        "coding": 38.0,
+        "agents": 24.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 32.8,
+        "subagent": 42.0,
+        "coding": 38.0,
+        "overall": 41.0
+      },
+      "profile_costs": {
+        "orchestrator": 15.0,
+        "subagent": 30.0,
+        "coding": 7.5,
+        "overall": 15.0
+      },
+      "profile_values": {
+        "orchestrator": 1.02,
+        "subagent": 0.98,
+        "coding": 0.96,
+        "overall": 0.91
+      }
+    },
+    {
+      "id": "meta-llama/llama-4-scout",
+      "name": "Meta: Llama 4 Scout",
+      "provider": "meta-llama",
+      "hermes_ready": false,
+      "hermes_provider": null,
+      "input_per_mtok": 0.1,
+      "output_per_mtok": 0.3,
+      "is_free": false,
+      "context_length": 10000000,
+      "scores": {
+        "overall": 40.0,
+        "reasoning": 41.0,
+        "coding": 34.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 27.2,
+        "subagent": 37.5,
+        "coding": 34.0,
+        "overall": 40.0
+      },
+      "profile_costs": {
+        "orchestrator": 3.0,
+        "subagent": 6.0,
+        "coding": 1.5,
+        "overall": 3.0
+      },
+      "profile_values": {
+        "orchestrator": 4.23,
+        "subagent": 4.35,
+        "coding": 4.3,
+        "overall": 4.43
+      }
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.22,
+      "output_per_mtok": 1.8,
+      "is_free": false,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 39.5,
+        "reasoning": 38.0,
+        "coding": 50.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 28.4,
+        "subagent": 44.0,
+        "coding": 50.0,
+        "overall": 39.5
+      },
+      "profile_costs": {
+        "orchestrator": 12.3,
+        "subagent": 24.6,
+        "coding": 6.15,
+        "overall": 12.3
+      },
+      "profile_values": {
+        "orchestrator": 1.08,
+        "subagent": 1.25,
+        "coding": 1.54,
+        "overall": 1.07
+      }
+    },
+    {
+      "id": "qwen/qwen3-coder:free",
+      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+      "provider": "qwen",
+      "hermes_ready": true,
+      "hermes_provider": "qwen-oauth",
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "is_free": true,
+      "context_length": 1048576,
+      "scores": {
+        "overall": 39.5,
+        "reasoning": 38.0,
+        "coding": 50.0,
+        "agents": 22.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 28.4,
+        "subagent": 44.0,
+        "coding": 50.0,
+        "overall": 39.5
+      },
+      "profile_costs": {
+        "orchestrator": 0.0,
+        "subagent": 0.0,
+        "coding": 0.0,
+        "overall": 0.0
+      },
+      "profile_values": {
+        "orchestrator": null,
+        "subagent": null,
+        "coding": null,
+        "overall": null
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Anthropic: Claude Haiku 4.5",
+      "provider": "anthropic",
+      "hermes_ready": true,
+      "hermes_provider": "anthropic",
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "is_free": false,
+      "context_length": 200000,
+      "scores": {
+        "overall": 38.0,
+        "reasoning": 37.0,
+        "coding": 30.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 25.6,
+        "subagent": 33.5,
+        "coding": 30.0,
+        "overall": 38.0
+      },
+      "profile_costs": {
+        "orchestrator": 40.0,
+        "subagent": 80.0,
+        "coding": 20.0,
+        "overall": 40.0
+      },
+      "profile_values": {
+        "orchestrator": 0.3,
+        "subagent": 0.29,
+        "coding": 0.28,
+        "overall": 0.32
+      }
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "OpenAI: GPT-4o",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 37.0,
+        "reasoning": 38.0,
+        "coding": 32.0,
+        "agents": 20.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 27.2,
+        "subagent": 35.0,
+        "coding": 32.0,
+        "overall": 37.0
+      },
+      "profile_costs": {
+        "orchestrator": 87.5,
+        "subagent": 175.0,
+        "coding": 43.75,
+        "overall": 87.5
+      },
+      "profile_values": {
+        "orchestrator": 0.14,
+        "subagent": 0.14,
+        "coding": 0.14,
+        "overall": 0.14
+      }
+    },
+    {
+      "id": "openai/gpt-4o-search-preview",
+      "name": "OpenAI: GPT-4o Search Preview",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 37.0,
+        "reasoning": 38.0,
+        "coding": 32.0,
+        "agents": 20.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 27.2,
+        "subagent": 35.0,
+        "coding": 32.0,
+        "overall": 37.0
+      },
+      "profile_costs": {
+        "orchestrator": 87.5,
+        "subagent": 175.0,
+        "coding": 43.75,
+        "overall": 87.5
+      },
+      "profile_values": {
+        "orchestrator": 0.14,
+        "subagent": 0.14,
+        "coding": 0.14,
+        "overall": 0.14
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "name": "OpenAI: GPT-5 Nano",
+      "provider": "openai",
+      "hermes_ready": true,
+      "hermes_provider": "openai-codex",
+      "input_per_mtok": 0.05,
+      "output_per_mtok": 0.4,
+      "is_free": false,
+      "context_length": 400000,
+      "scores": {
+        "overall": 35.0,
+        "reasoning": 34.0,
+        "coding": 28.0,
+        "agents": 18.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 24.4,
+        "subagent": 31.0,
+        "coding": 28.0,
+        "overall": 35.0
+      },
+      "profile_costs": {
+        "orchestrator": 2.75,
+        "subagent": 5.5,
+        "coding": 1.375,
+        "overall": 2.75
+      },
+      "profile_values": {
+        "orchestrator": 4.13,
+        "subagent": 3.93,
+        "coding": 3.86,
+        "overall": 4.23
+      }
+    },
+    {
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "name": "Mistral: Mistral Small 3.2 24B",
+      "provider": "mistralai",
+      "hermes_ready": false,
+      "hermes_provider": null,
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.2,
+      "is_free": false,
+      "context_length": 128000,
+      "scores": {
+        "overall": 32.0,
+        "reasoning": 33.0,
+        "coding": 28.0,
+        "agents": 16.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 22.8,
+        "subagent": 30.5,
+        "coding": 28.0,
+        "overall": 32.0
+      },
+      "profile_costs": {
+        "orchestrator": 2.125,
+        "subagent": 4.25,
+        "coding": 1.0625,
+        "overall": 2.125
+      },
+      "profile_values": {
+        "orchestrator": 5.0,
+        "subagent": 5.0,
+        "coding": 5.0,
+        "overall": 5.0
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "claude-pro",
+      "name": "Claude Pro",
+      "provider": "Anthropic",
+      "price_usd_month": 20,
+      "includes_models": [
+        "claude-opus-4.7",
+        "claude-sonnet-4.6",
+        "claude-haiku-4.5"
+      ],
+      "notable": "~45 Opus messages/5h, unlimited Sonnet",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "claude-max-5x",
+      "name": "Claude Max (5\u00d7)",
+      "provider": "Anthropic",
+      "price_usd_month": 100,
+      "includes_models": [
+        "claude-opus-4.7",
+        "claude-sonnet-4.6",
+        "claude-haiku-4.5"
+      ],
+      "notable": "5\u00d7 Pro usage limits",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "claude-max-20x",
+      "name": "Claude Max (20\u00d7)",
+      "provider": "Anthropic",
+      "price_usd_month": 200,
+      "includes_models": [
+        "claude-opus-4.7",
+        "claude-sonnet-4.6",
+        "claude-haiku-4.5"
+      ],
+      "notable": "20\u00d7 Pro usage limits",
+      "source_url": "https://claude.ai/upgrade",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "provider": "OpenAI",
+      "price_usd_month": 20,
+      "includes_models": [
+        "gpt-5",
+        "gpt-4o",
+        "o4-mini"
+      ],
+      "notable": "Limited GPT-5 access",
+      "source_url": "https://openai.com/chatgpt/pricing",
+      "fetched_at": "2026-06-15",
+      "confidence": "verified"
+    },
+    {
+      "id": "chatgpt-pro",
+      "name": "ChatGPT Pro",
+      "provider": "OpenAI",
+      "price_usd_month": 200,
+      "includes_models": [
+        "gpt-5",
+        "gpt-5.5",
+        "o3-pro",
+        "o4-mini"
+      ],
+      "notable": "Unlimited GPT-5, o3 Pro access",
+      "source_url": "https://openai.com/chatgpt/pricing",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "gemini-advanced",
+      "name": "Google One AI Premium",
+      "provider": "Google",
+      "price_usd_month": 19.99,
+      "includes_models": [
+        "gemini-3.1-pro",
+        "gemini-3.5-flash"
+      ],
+      "notable": "Includes 2TB Drive + Gemini Advanced",
+      "source_url": "https://one.google.com/about/plans",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "deepseek-pro",
+      "name": "DeepSeek Pro",
+      "provider": "DeepSeek",
+      "price_usd_month": 8,
+      "includes_models": [
+        "deepseek-v4-pro",
+        "deepseek-r1"
+      ],
+      "notable": "~50 priority messages/day",
+      "source_url": "https://chat.deepseek.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "kimi-plus",
+      "name": "Kimi Plus",
+      "provider": "Moonshot AI",
+      "price_usd_month": 9.9,
+      "includes_models": [
+        "kimi-k2.6"
+      ],
+      "notable": "Extended context and priority access",
+      "source_url": "https://kimi.ai",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "qwen-plus-sub",
+      "name": "Tongyi Qianwen Plus",
+      "provider": "Alibaba",
+      "price_usd_month": 9,
+      "includes_models": [
+        "qwen3-max",
+        "qwen3.7-max"
+      ],
+      "notable": "Chinese domestic pricing; ~\u00a569/mo",
+      "source_url": "https://tongyi.aliyun.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "glm-plus",
+      "name": "ChatGLM Plus",
+      "provider": "Zhipu AI",
+      "price_usd_month": 8,
+      "includes_models": [
+        "glm-5.1",
+        "glm-5"
+      ],
+      "notable": "Chinese domestic; ~\u00a559/mo",
+      "source_url": "https://chatglm.cn",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    },
+    {
+      "id": "minimax-pro",
+      "name": "MiniMax Pro",
+      "provider": "MiniMax",
+      "price_usd_month": 7,
+      "includes_models": [
+        "minimax-m3",
+        "minimax-m2.7"
+      ],
+      "notable": "Chinese domestic; ~\u00a549/mo",
+      "source_url": "https://hailuoai.com",
+      "fetched_at": "2026-06-15",
+      "confidence": "estimated"
+    }
+  ],
+  "config": {
+    "budget_ceiling_usd_month": 200,
+    "equivalence_threshold": 0.9,
+    "equivalence_floor_threshold": 0.85,
+    "quality_source": "llm-stats",
+    "profiles": {
+      "orchestrator": {
+        "name": "Orchestrator",
+        "hermes_slot": "model.default",
+        "description": "Hermes main agent \u2014 planning, coordination",
+        "weights": {
+          "agents": 0.6,
+          "reasoning": 0.4
+        },
+        "anchor": "anthropic/claude-opus-4.7",
+        "monthly_input_tokens": 15000000,
+        "monthly_output_tokens": 5000000
+      },
+      "subagent": {
+        "name": "Subagent",
+        "hermes_slot": "delegation.model (global)",
+        "description": "All Hermes delegated subtasks \u2014 one shared model",
+        "weights": {
+          "coding": 0.5,
+          "reasoning": 0.5
+        },
+        "anchor": "anthropic/claude-sonnet-4.6",
+        "monthly_input_tokens": 30000000,
+        "monthly_output_tokens": 10000000
+      },
+      "coding": {
+        "name": "Coding",
+        "hermes_slot": "--model (CLI)",
+        "description": "Your own coding sessions",
+        "weights": {
+          "coding": 1.0
+        },
+        "anchor": "anthropic/claude-sonnet-4.6",
+        "monthly_input_tokens": 7500000,
+        "monthly_output_tokens": 2500000
+      },
+      "overall": {
+        "name": "Overall",
+        "hermes_slot": "reference",
+        "description": "General-purpose reference ranking",
+        "weights": {
+          "overall": 1.0
+        },
+        "anchor": "anthropic/claude-opus-4.7",
+        "monthly_input_tokens": 15000000,
+        "monthly_output_tokens": 5000000
+      }
+    },
+    "id_overrides": {}
+  }
+}
