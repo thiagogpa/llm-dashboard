@@ -466,4 +466,17 @@ async function init() {
   renderSubscriptions();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', init);
+}
+
+// CommonJS exports for unit tests (ignored in browser where module is undefined)
+if (typeof module !== 'undefined') {
+  module.exports = {
+    computeScore, computeCost, computeAvgCostPerMtok,
+    enrichModels, filterRows, sortRows,
+    stars, fmtCost,
+    _setDATA: (d) => { DATA = d; },
+    _setState: (s) => { Object.assign(state, s); },
+  };
+}
