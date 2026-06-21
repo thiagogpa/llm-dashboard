@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-15",
-  "prices_date": "2026-06-15",
-  "quality_date": "2026-06-15",
+  "generated_at": "2026-06-21",
+  "prices_date": "2026-06-21",
+  "quality_date": "2026-06-21",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 60,
-  "unmatched_price_only": 264,
+  "unmatched_price_only": 267,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -301,8 +301,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.68,
-      "output_per_mtok": 3.41,
+      "input_per_mtok": 0.66,
+      "output_per_mtok": 3.5,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -319,16 +319,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 27.25,
-        "subagent": 54.5,
-        "coding": 13.625,
-        "overall": 27.25
+        "orchestrator": 27.4,
+        "subagent": 54.8,
+        "coding": 13.7,
+        "overall": 27.4
       },
       "profile_values": {
         "orchestrator": 0.77,
         "subagent": 0.64,
         "coding": 0.6,
-        "overall": 0.7
+        "overall": 0.69
       }
     },
     {
@@ -1093,10 +1093,10 @@
       "provider": "qwen",
       "hermes_ready": true,
       "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.39,
-      "output_per_mtok": 2.34,
+      "input_per_mtok": 0.385,
+      "output_per_mtok": 2.45,
       "is_free": false,
-      "context_length": 262144,
+      "context_length": 256000,
       "scores": {
         "overall": 49.8,
         "reasoning": 48.3,
@@ -1111,16 +1111,16 @@
         "overall": 49.8
       },
       "profile_costs": {
-        "orchestrator": 17.55,
-        "subagent": 35.1,
-        "coding": 8.775,
-        "overall": 17.55
+        "orchestrator": 18.025,
+        "subagent": 36.05,
+        "coding": 9.0125,
+        "overall": 18.025
       },
       "profile_values": {
-        "orchestrator": 1.11,
-        "subagent": 0.77,
-        "coding": 0.64,
-        "overall": 0.94
+        "orchestrator": 1.08,
+        "subagent": 0.75,
+        "coding": 0.62,
+        "overall": 0.92
       }
     },
     {
