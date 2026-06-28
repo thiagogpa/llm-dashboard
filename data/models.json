@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-21",
-  "prices_date": "2026-06-21",
-  "quality_date": "2026-06-21",
+  "generated_at": "2026-06-28",
+  "prices_date": "2026-06-28",
+  "quality_date": "2026-06-28",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 60,
-  "unmatched_price_only": 267,
+  "unmatched_price_only": 266,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -302,7 +302,7 @@
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
       "input_per_mtok": 0.66,
-      "output_per_mtok": 3.5,
+      "output_per_mtok": 3.41,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -319,16 +319,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 27.4,
-        "subagent": 54.8,
-        "coding": 13.7,
-        "overall": 27.4
+        "orchestrator": 26.95,
+        "subagent": 53.9,
+        "coding": 13.475,
+        "overall": 26.95
       },
       "profile_values": {
-        "orchestrator": 0.77,
-        "subagent": 0.64,
-        "coding": 0.6,
-        "overall": 0.69
+        "orchestrator": 0.78,
+        "subagent": 0.65,
+        "coding": 0.61,
+        "overall": 0.71
       }
     },
     {
