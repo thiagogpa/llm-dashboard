@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-28",
-  "prices_date": "2026-06-28",
-  "quality_date": "2026-06-28",
+  "generated_at": "2026-07-05",
+  "prices_date": "2026-07-05",
+  "quality_date": "2026-07-05",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
-  "model_count": 60,
-  "unmatched_price_only": 266,
+  "model_count": 59,
+  "unmatched_price_only": 268,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -617,42 +617,6 @@
         "subagent": 0.09,
         "coding": 0.08,
         "overall": 0.09
-      }
-    },
-    {
-      "id": "anthropic/claude-opus-4.6-fast",
-      "name": "Anthropic: Claude Opus 4.6 (Fast)",
-      "provider": "anthropic",
-      "hermes_ready": true,
-      "hermes_provider": "anthropic",
-      "input_per_mtok": 30.0,
-      "output_per_mtok": 150.0,
-      "is_free": false,
-      "context_length": 1000000,
-      "scores": {
-        "overall": 53.7,
-        "reasoning": 58.0,
-        "coding": 43.0,
-        "agents": 34.4
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 43.84,
-        "subagent": 50.5,
-        "coding": 43.0,
-        "overall": 53.7
-      },
-      "profile_costs": {
-        "orchestrator": 1200.0,
-        "subagent": 2400.0,
-        "coding": 600.0,
-        "overall": 1200.0
-      },
-      "profile_values": {
-        "orchestrator": 0.02,
-        "subagent": 0.01,
-        "coding": 0.01,
-        "overall": 0.01
       }
     },
     {
