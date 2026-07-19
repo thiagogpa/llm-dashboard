@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-12",
-  "prices_date": "2026-07-12",
-  "quality_date": "2026-07-12",
+  "generated_at": "2026-07-19",
+  "prices_date": "2026-07-19",
+  "quality_date": "2026-07-19",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 59,
-  "unmatched_price_only": 272,
+  "unmatched_price_only": 270,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -37,7 +37,7 @@
         "overall": 600.0
       },
       "profile_values": {
-        "orchestrator": 0.04,
+        "orchestrator": 0.05,
         "subagent": 0.04,
         "coding": 0.04,
         "overall": 0.04
@@ -73,10 +73,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.12,
-        "subagent": 0.1,
-        "coding": 0.1,
-        "overall": 0.11
+        "orchestrator": 0.14,
+        "subagent": 0.12,
+        "coding": 0.11,
+        "overall": 0.13
       }
     },
     {
@@ -109,9 +109,9 @@
         "overall": 400.0
       },
       "profile_values": {
-        "orchestrator": 0.06,
-        "subagent": 0.05,
-        "coding": 0.05,
+        "orchestrator": 0.07,
+        "subagent": 0.06,
+        "coding": 0.06,
         "overall": 0.06
       }
     },
@@ -145,9 +145,9 @@
         "overall": 400.0
       },
       "profile_values": {
-        "orchestrator": 0.07,
+        "orchestrator": 0.08,
         "subagent": 0.06,
-        "coding": 0.05,
+        "coding": 0.06,
         "overall": 0.06
       }
     },
@@ -217,10 +217,10 @@
         "overall": 225.0
       },
       "profile_values": {
-        "orchestrator": 0.1,
-        "subagent": 0.09,
-        "coding": 0.08,
-        "overall": 0.09
+        "orchestrator": 0.12,
+        "subagent": 0.1,
+        "coding": 0.1,
+        "overall": 0.1
       }
     },
     {
@@ -253,10 +253,10 @@
         "overall": 112.5
       },
       "profile_values": {
-        "orchestrator": 0.18,
-        "subagent": 0.15,
-        "coding": 0.14,
-        "overall": 0.18
+        "orchestrator": 0.21,
+        "subagent": 0.17,
+        "coding": 0.17,
+        "overall": 0.2
       }
     },
     {
@@ -289,10 +289,10 @@
         "overall": 67.5
       },
       "profile_values": {
-        "orchestrator": 0.32,
-        "subagent": 0.26,
-        "coding": 0.26,
-        "overall": 0.28
+        "orchestrator": 0.38,
+        "subagent": 0.3,
+        "coding": 0.3,
+        "overall": 0.32
       }
     },
     {
@@ -301,8 +301,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.66,
-      "output_per_mtok": 3.41,
+      "input_per_mtok": 0.684,
+      "output_per_mtok": 3.42,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -319,16 +319,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 26.95,
-        "subagent": 53.9,
-        "coding": 13.475,
-        "overall": 26.95
+        "orchestrator": 27.36,
+        "subagent": 54.72,
+        "coding": 13.68,
+        "overall": 27.36
       },
       "profile_values": {
-        "orchestrator": 0.78,
-        "subagent": 0.65,
-        "coding": 0.61,
-        "overall": 0.71
+        "orchestrator": 0.91,
+        "subagent": 0.73,
+        "coding": 0.7,
+        "overall": 0.79
       }
     },
     {
@@ -337,8 +337,8 @@
       "provider": "qwen",
       "hermes_ready": true,
       "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 1.25,
-      "output_per_mtok": 3.75,
+      "input_per_mtok": 1.475,
+      "output_per_mtok": 4.425,
       "is_free": false,
       "context_length": 1000000,
       "scores": {
@@ -355,16 +355,16 @@
         "overall": 56.6
       },
       "profile_costs": {
-        "orchestrator": 37.5,
-        "subagent": 75.0,
-        "coding": 18.75,
-        "overall": 37.5
+        "orchestrator": 44.25,
+        "subagent": 88.5,
+        "coding": 22.125,
+        "overall": 44.25
       },
       "profile_values": {
         "orchestrator": 0.59,
-        "subagent": 0.5,
+        "subagent": 0.48,
         "coding": 0.48,
-        "overall": 0.5
+        "overall": 0.48
       }
     },
     {
@@ -397,10 +397,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.32,
-        "subagent": 0.2,
-        "coding": 0.17,
-        "overall": 0.27
+        "orchestrator": 0.38,
+        "subagent": 0.23,
+        "coding": 0.2,
+        "overall": 0.31
       }
     },
     {
@@ -433,10 +433,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.32,
-        "subagent": 0.2,
-        "coding": 0.17,
-        "overall": 0.27
+        "orchestrator": 0.38,
+        "subagent": 0.23,
+        "coding": 0.2,
+        "overall": 0.31
       }
     },
     {
@@ -469,10 +469,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.11,
-        "subagent": 0.09,
-        "coding": 0.09,
-        "overall": 0.09
+        "orchestrator": 0.13,
+        "subagent": 0.11,
+        "coding": 0.11,
+        "overall": 0.1
       }
     },
     {
@@ -541,10 +541,10 @@
         "overall": 96.25
       },
       "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.16,
-        "coding": 0.14,
-        "overall": 0.19
+        "orchestrator": 0.21,
+        "subagent": 0.18,
+        "coding": 0.16,
+        "overall": 0.22
       }
     },
     {
@@ -577,10 +577,10 @@
         "overall": 96.25
       },
       "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.16,
-        "coding": 0.14,
-        "overall": 0.19
+        "orchestrator": 0.21,
+        "subagent": 0.18,
+        "coding": 0.16,
+        "overall": 0.22
       }
     },
     {
@@ -613,10 +613,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.1,
-        "subagent": 0.09,
-        "coding": 0.08,
-        "overall": 0.09
+        "orchestrator": 0.12,
+        "subagent": 0.1,
+        "coding": 0.09,
+        "overall": 0.1
       }
     },
     {
@@ -649,10 +649,10 @@
         "overall": 23.0
       },
       "profile_values": {
-        "orchestrator": 0.77,
-        "subagent": 0.8,
-        "coding": 0.71,
-        "overall": 0.77
+        "orchestrator": 0.91,
+        "subagent": 0.91,
+        "coding": 0.82,
+        "overall": 0.87
       }
     },
     {
@@ -685,10 +685,10 @@
         "overall": 10.875
       },
       "profile_values": {
-        "orchestrator": 1.46,
-        "subagent": 1.57,
-        "coding": 1.49,
-        "overall": 1.62
+        "orchestrator": 1.73,
+        "subagent": 1.81,
+        "coding": 1.74,
+        "overall": 1.83
       }
     },
     {
@@ -721,10 +721,10 @@
         "overall": 90.0
       },
       "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.2,
-        "coding": 0.18,
-        "overall": 0.2
+        "orchestrator": 0.2,
+        "subagent": 0.22,
+        "coding": 0.21,
+        "overall": 0.22
       }
     },
     {
@@ -757,10 +757,10 @@
         "overall": 90.0
       },
       "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.2,
-        "coding": 0.18,
-        "overall": 0.2
+        "orchestrator": 0.2,
+        "subagent": 0.22,
+        "coding": 0.21,
+        "overall": 0.22
       }
     },
     {
@@ -793,10 +793,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.12,
-        "subagent": 0.08,
-        "coding": 0.07,
-        "overall": 0.09
+        "orchestrator": 0.15,
+        "subagent": 0.09,
+        "coding": 0.09,
+        "overall": 0.1
       }
     },
     {
@@ -829,10 +829,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.28,
-        "subagent": 0.24,
-        "coding": 0.24,
-        "overall": 0.26
+        "orchestrator": 0.33,
+        "subagent": 0.28,
+        "coding": 0.28,
+        "overall": 0.29
       }
     },
     {
@@ -865,10 +865,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.28,
-        "subagent": 0.24,
-        "coding": 0.24,
-        "overall": 0.26
+        "orchestrator": 0.33,
+        "subagent": 0.28,
+        "coding": 0.28,
+        "overall": 0.29
       }
     },
     {
@@ -901,10 +901,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.1,
-        "subagent": 0.08,
-        "coding": 0.08,
-        "overall": 0.09
+        "orchestrator": 0.11,
+        "subagent": 0.1,
+        "coding": 0.09,
+        "overall": 0.1
       }
     },
     {
@@ -937,10 +937,10 @@
         "overall": 70.0
       },
       "profile_values": {
-        "orchestrator": 0.28,
-        "subagent": 0.26,
-        "coding": 0.23,
-        "overall": 0.25
+        "orchestrator": 0.33,
+        "subagent": 0.3,
+        "coding": 0.27,
+        "overall": 0.28
       }
     },
     {
@@ -973,10 +973,10 @@
         "overall": 15.925
       },
       "profile_values": {
-        "orchestrator": 1.1,
-        "subagent": 1.02,
-        "coding": 1.02,
-        "overall": 1.07
+        "orchestrator": 1.3,
+        "subagent": 1.17,
+        "coding": 1.19,
+        "overall": 1.21
       }
     },
     {
@@ -1009,10 +1009,10 @@
         "overall": 120.0
       },
       "profile_values": {
-        "orchestrator": 0.11,
-        "subagent": 0.12,
-        "coding": 0.11,
-        "overall": 0.14
+        "orchestrator": 0.13,
+        "subagent": 0.14,
+        "coding": 0.13,
+        "overall": 0.16
       }
     },
     {
@@ -1021,8 +1021,8 @@
       "provider": "meta-llama",
       "hermes_ready": false,
       "hermes_provider": null,
-      "input_per_mtok": 0.15,
-      "output_per_mtok": 0.6,
+      "input_per_mtok": 0.2,
+      "output_per_mtok": 0.8,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -1039,16 +1039,16 @@
         "overall": 50.0
       },
       "profile_costs": {
-        "orchestrator": 5.25,
-        "subagent": 10.5,
-        "coding": 2.625,
-        "overall": 5.25
+        "orchestrator": 7.0,
+        "subagent": 14.0,
+        "coding": 3.5,
+        "overall": 7.0
       },
       "profile_values": {
-        "orchestrator": 2.91,
-        "subagent": 2.99,
-        "coding": 2.96,
-        "overall": 3.16
+        "orchestrator": 2.58,
+        "subagent": 2.57,
+        "coding": 2.58,
+        "overall": 2.68
       }
     },
     {
@@ -1057,10 +1057,10 @@
       "provider": "qwen",
       "hermes_ready": true,
       "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.385,
-      "output_per_mtok": 2.45,
+      "input_per_mtok": 0.39,
+      "output_per_mtok": 2.34,
       "is_free": false,
-      "context_length": 256000,
+      "context_length": 262144,
       "scores": {
         "overall": 49.8,
         "reasoning": 48.3,
@@ -1075,16 +1075,16 @@
         "overall": 49.8
       },
       "profile_costs": {
-        "orchestrator": 18.025,
-        "subagent": 36.05,
-        "coding": 9.0125,
-        "overall": 18.025
+        "orchestrator": 17.55,
+        "subagent": 35.1,
+        "coding": 8.775,
+        "overall": 17.55
       },
       "profile_values": {
-        "orchestrator": 1.08,
-        "subagent": 0.75,
-        "coding": 0.62,
-        "overall": 0.92
+        "orchestrator": 1.31,
+        "subagent": 0.89,
+        "coding": 0.74,
+        "overall": 1.06
       }
     },
     {
@@ -1117,10 +1117,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.21,
-        "subagent": 0.24,
-        "coding": 0.23,
-        "overall": 0.24
+        "orchestrator": 0.25,
+        "subagent": 0.27,
+        "coding": 0.27,
+        "overall": 0.27
       }
     },
     {
@@ -1153,10 +1153,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.21,
-        "subagent": 0.24,
-        "coding": 0.23,
-        "overall": 0.24
+        "orchestrator": 0.25,
+        "subagent": 0.27,
+        "coding": 0.27,
+        "overall": 0.27
       }
     },
     {
@@ -1165,8 +1165,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.375,
-      "output_per_mtok": 2.025,
+      "input_per_mtok": 0.57,
+      "output_per_mtok": 2.85,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -1183,16 +1183,16 @@
         "overall": 49.0
       },
       "profile_costs": {
-        "orchestrator": 15.75,
-        "subagent": 31.5,
-        "coding": 7.875,
-        "overall": 15.75
+        "orchestrator": 22.8,
+        "subagent": 45.6,
+        "coding": 11.4,
+        "overall": 22.8
       },
       "profile_values": {
-        "orchestrator": 1.24,
-        "subagent": 0.89,
-        "coding": 0.74,
-        "overall": 1.03
+        "orchestrator": 1.02,
+        "subagent": 0.7,
+        "coding": 0.59,
+        "overall": 0.81
       }
     },
     {
@@ -1201,10 +1201,10 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.2145,
-      "output_per_mtok": 0.32175,
+      "input_per_mtok": 0.269,
+      "output_per_mtok": 0.4,
       "is_free": false,
-      "context_length": 131072,
+      "context_length": 163840,
       "scores": {
         "overall": 48.5,
         "reasoning": 50.0,
@@ -1219,16 +1219,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 4.8262,
-        "subagent": 9.6525,
-        "coding": 2.4131,
-        "overall": 4.8262
+        "orchestrator": 6.035,
+        "subagent": 12.07,
+        "coding": 3.0175,
+        "overall": 6.035
       },
       "profile_values": {
-        "orchestrator": 2.97,
-        "subagent": 3.28,
-        "coding": 3.22,
-        "overall": 3.34
+        "orchestrator": 2.81,
+        "subagent": 3.02,
+        "coding": 3.0,
+        "overall": 3.01
       }
     },
     {
@@ -1261,10 +1261,10 @@
         "overall": 6.1
       },
       "profile_values": {
-        "orchestrator": 2.35,
-        "subagent": 2.6,
-        "coding": 2.55,
-        "overall": 2.64
+        "orchestrator": 2.78,
+        "subagent": 2.98,
+        "coding": 2.97,
+        "overall": 2.98
       }
     },
     {
@@ -1297,10 +1297,10 @@
         "overall": 31.2
       },
       "profile_values": {
-        "orchestrator": 0.55,
-        "subagent": 0.51,
-        "coding": 0.51,
-        "overall": 0.51
+        "orchestrator": 0.65,
+        "subagent": 0.59,
+        "coding": 0.59,
+        "overall": 0.58
       }
     },
     {
@@ -1333,10 +1333,10 @@
         "overall": 31.2
       },
       "profile_values": {
-        "orchestrator": 0.55,
-        "subagent": 0.51,
-        "coding": 0.51,
-        "overall": 0.51
+        "orchestrator": 0.65,
+        "subagent": 0.59,
+        "coding": 0.59,
+        "overall": 0.58
       }
     },
     {
@@ -1369,10 +1369,10 @@
         "overall": 20.05
       },
       "profile_values": {
-        "orchestrator": 0.84,
-        "subagent": 0.75,
-        "coding": 0.72,
-        "overall": 0.79
+        "orchestrator": 0.99,
+        "subagent": 0.86,
+        "coding": 0.84,
+        "overall": 0.89
       }
     },
     {
@@ -1405,10 +1405,10 @@
         "overall": 21.5
       },
       "profile_values": {
-        "orchestrator": 0.78,
-        "subagent": 0.7,
-        "coding": 0.67,
-        "overall": 0.73
+        "orchestrator": 0.92,
+        "subagent": 0.8,
+        "coding": 0.78,
+        "overall": 0.83
       }
     },
     {
@@ -1441,10 +1441,10 @@
         "overall": 21.5
       },
       "profile_values": {
-        "orchestrator": 0.78,
-        "subagent": 0.7,
-        "coding": 0.67,
-        "overall": 0.73
+        "orchestrator": 0.92,
+        "subagent": 0.8,
+        "coding": 0.78,
+        "overall": 0.83
       }
     },
     {
@@ -1477,10 +1477,10 @@
         "overall": 120.0
       },
       "profile_values": {
-        "orchestrator": 0.11,
-        "subagent": 0.1,
-        "coding": 0.1,
-        "overall": 0.13
+        "orchestrator": 0.13,
+        "subagent": 0.12,
+        "coding": 0.11,
+        "overall": 0.15
       }
     },
     {
@@ -1513,10 +1513,10 @@
         "overall": 22.5
       },
       "profile_values": {
-        "orchestrator": 0.53,
-        "subagent": 0.61,
-        "coding": 0.51,
-        "overall": 0.68
+        "orchestrator": 0.63,
+        "subagent": 0.7,
+        "coding": 0.59,
+        "overall": 0.77
       }
     },
     {
@@ -1549,10 +1549,10 @@
         "overall": 17.0
       },
       "profile_values": {
-        "orchestrator": 0.78,
-        "subagent": 0.88,
-        "coding": 0.87,
-        "overall": 0.9
+        "orchestrator": 0.92,
+        "subagent": 1.01,
+        "coding": 1.01,
+        "overall": 1.01
       }
     },
     {
@@ -1585,10 +1585,10 @@
         "overall": 17.0
       },
       "profile_values": {
-        "orchestrator": 0.78,
-        "subagent": 0.88,
-        "coding": 0.87,
-        "overall": 0.9
+        "orchestrator": 0.92,
+        "subagent": 1.01,
+        "coding": 1.01,
+        "overall": 1.01
       }
     },
     {
@@ -1621,10 +1621,10 @@
         "overall": 47.5
       },
       "profile_values": {
-        "orchestrator": 0.33,
-        "subagent": 0.31,
-        "coding": 0.3,
-        "overall": 0.32
+        "orchestrator": 0.39,
+        "subagent": 0.35,
+        "coding": 0.35,
+        "overall": 0.36
       }
     },
     {
@@ -1657,10 +1657,10 @@
         "overall": 13.75
       },
       "profile_values": {
-        "orchestrator": 1.15,
-        "subagent": 1.06,
-        "coding": 1.05,
-        "overall": 1.11
+        "orchestrator": 1.36,
+        "subagent": 1.22,
+        "coding": 1.22,
+        "overall": 1.25
       }
     },
     {
@@ -1693,10 +1693,10 @@
         "overall": 38.5
       },
       "profile_values": {
-        "orchestrator": 0.43,
-        "subagent": 0.42,
-        "coding": 0.37,
-        "overall": 0.39
+        "orchestrator": 0.5,
+        "subagent": 0.48,
+        "coding": 0.44,
+        "overall": 0.44
       }
     },
     {
@@ -1729,10 +1729,10 @@
         "overall": 38.5
       },
       "profile_values": {
-        "orchestrator": 0.43,
-        "subagent": 0.42,
-        "coding": 0.37,
-        "overall": 0.39
+        "orchestrator": 0.5,
+        "subagent": 0.48,
+        "coding": 0.44,
+        "overall": 0.44
       }
     },
     {
@@ -1765,10 +1765,10 @@
         "overall": 33.75
       },
       "profile_values": {
-        "orchestrator": 0.29,
-        "subagent": 0.38,
-        "coding": 0.37,
-        "overall": 0.42
+        "orchestrator": 0.34,
+        "subagent": 0.43,
+        "coding": 0.43,
+        "overall": 0.47
       }
     },
     {
@@ -1777,8 +1777,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.21,
-      "output_per_mtok": 0.79,
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.95,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1795,16 +1795,16 @@
         "overall": 42.0
       },
       "profile_costs": {
-        "orchestrator": 7.1,
-        "subagent": 14.2,
-        "coding": 3.55,
-        "overall": 7.1
+        "orchestrator": 8.5,
+        "subagent": 17.0,
+        "coding": 4.25,
+        "overall": 8.5
       },
       "profile_values": {
-        "orchestrator": 1.79,
-        "subagent": 1.99,
-        "coding": 1.98,
-        "overall": 1.96
+        "orchestrator": 1.76,
+        "subagent": 1.91,
+        "coding": 1.92,
+        "overall": 1.85
       }
     },
     {
@@ -1837,10 +1837,10 @@
         "overall": 15.0
       },
       "profile_values": {
-        "orchestrator": 1.02,
-        "subagent": 0.98,
-        "coding": 0.96,
-        "overall": 0.91
+        "orchestrator": 1.21,
+        "subagent": 1.12,
+        "coding": 1.12,
+        "overall": 1.02
       }
     },
     {
@@ -1873,10 +1873,10 @@
         "overall": 3.0
       },
       "profile_values": {
-        "orchestrator": 4.23,
-        "subagent": 4.35,
-        "coding": 4.3,
-        "overall": 4.43
+        "orchestrator": 5.0,
+        "subagent": 5.0,
+        "coding": 5.0,
+        "overall": 5.0
       }
     },
     {
@@ -1885,8 +1885,8 @@
       "provider": "qwen",
       "hermes_ready": true,
       "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.22,
-      "output_per_mtok": 1.8,
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.0,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -1903,16 +1903,16 @@
         "overall": 39.5
       },
       "profile_costs": {
-        "orchestrator": 12.3,
-        "subagent": 24.6,
-        "coding": 6.15,
-        "overall": 12.3
+        "orchestrator": 9.5,
+        "subagent": 19.0,
+        "coding": 4.75,
+        "overall": 9.5
       },
       "profile_values": {
-        "orchestrator": 1.08,
-        "subagent": 1.25,
-        "coding": 1.54,
-        "overall": 1.07
+        "orchestrator": 1.65,
+        "subagent": 1.85,
+        "coding": 2.32,
+        "overall": 1.56
       }
     },
     {
@@ -1981,10 +1981,10 @@
         "overall": 40.0
       },
       "profile_values": {
-        "orchestrator": 0.3,
-        "subagent": 0.29,
-        "coding": 0.28,
-        "overall": 0.32
+        "orchestrator": 0.35,
+        "subagent": 0.34,
+        "coding": 0.33,
+        "overall": 0.36
       }
     },
     {
@@ -2017,10 +2017,10 @@
         "overall": 87.5
       },
       "profile_values": {
-        "orchestrator": 0.14,
-        "subagent": 0.14,
-        "coding": 0.14,
-        "overall": 0.14
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.16,
+        "overall": 0.16
       }
     },
     {
@@ -2053,10 +2053,10 @@
         "overall": 87.5
       },
       "profile_values": {
-        "orchestrator": 0.14,
-        "subagent": 0.14,
-        "coding": 0.14,
-        "overall": 0.14
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.16,
+        "overall": 0.16
       }
     },
     {
@@ -2089,10 +2089,10 @@
         "overall": 2.75
       },
       "profile_values": {
-        "orchestrator": 4.13,
-        "subagent": 3.93,
-        "coding": 3.86,
-        "overall": 4.23
+        "orchestrator": 4.89,
+        "subagent": 4.51,
+        "coding": 4.49,
+        "overall": 4.77
       }
     },
     {
@@ -2101,10 +2101,10 @@
       "provider": "mistralai",
       "hermes_ready": false,
       "hermes_provider": null,
-      "input_per_mtok": 0.075,
-      "output_per_mtok": 0.2,
+      "input_per_mtok": 0.1,
+      "output_per_mtok": 0.3,
       "is_free": false,
-      "context_length": 128000,
+      "context_length": 131072,
       "scores": {
         "overall": 32.0,
         "reasoning": 33.0,
@@ -2119,16 +2119,16 @@
         "overall": 32.0
       },
       "profile_costs": {
-        "orchestrator": 2.125,
-        "subagent": 4.25,
-        "coding": 1.0625,
-        "overall": 2.125
+        "orchestrator": 3.0,
+        "subagent": 6.0,
+        "coding": 1.5,
+        "overall": 3.0
       },
       "profile_values": {
-        "orchestrator": 5.0,
-        "subagent": 5.0,
-        "coding": 5.0,
-        "overall": 5.0
+        "orchestrator": 4.19,
+        "subagent": 4.07,
+        "coding": 4.12,
+        "overall": 4.0
       }
     }
   ],
