@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-19",
-  "prices_date": "2026-07-19",
-  "quality_date": "2026-07-19",
+  "generated_at": "2026-07-26",
+  "prices_date": "2026-07-26",
+  "quality_date": "2026-07-26",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
-  "model_count": 59,
-  "unmatched_price_only": 270,
+  "model_count": 58,
+  "unmatched_price_only": 272,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -301,8 +301,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.684,
-      "output_per_mtok": 3.42,
+      "input_per_mtok": 0.646,
+      "output_per_mtok": 2.72,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -319,16 +319,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 27.36,
-        "subagent": 54.72,
-        "coding": 13.68,
-        "overall": 27.36
+        "orchestrator": 23.29,
+        "subagent": 46.58,
+        "coding": 11.645,
+        "overall": 23.29
       },
       "profile_values": {
-        "orchestrator": 0.91,
-        "subagent": 0.73,
-        "coding": 0.7,
-        "overall": 0.79
+        "orchestrator": 1.07,
+        "subagent": 0.86,
+        "coding": 0.82,
+        "overall": 0.92
       }
     },
     {
@@ -736,7 +736,7 @@
       "input_per_mtok": 2.0,
       "output_per_mtok": 12.0,
       "is_free": false,
-      "context_length": 1048756,
+      "context_length": 1048576,
       "scores": {
         "overall": 53.1,
         "reasoning": 58.0,
@@ -1852,7 +1852,7 @@
       "input_per_mtok": 0.1,
       "output_per_mtok": 0.3,
       "is_free": false,
-      "context_length": 10000000,
+      "context_length": 1310720,
       "scores": {
         "overall": 40.0,
         "reasoning": 41.0,
@@ -1888,7 +1888,7 @@
       "input_per_mtok": 0.3,
       "output_per_mtok": 1.0,
       "is_free": false,
-      "context_length": 1048576,
+      "context_length": 262144,
       "scores": {
         "overall": 39.5,
         "reasoning": 38.0,
@@ -1913,42 +1913,6 @@
         "subagent": 1.85,
         "coding": 2.32,
         "overall": 1.56
-      }
-    },
-    {
-      "id": "qwen/qwen3-coder:free",
-      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
-      "provider": "qwen",
-      "hermes_ready": true,
-      "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.0,
-      "output_per_mtok": 0.0,
-      "is_free": true,
-      "context_length": 1048576,
-      "scores": {
-        "overall": 39.5,
-        "reasoning": 38.0,
-        "coding": 50.0,
-        "agents": 22.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 28.4,
-        "subagent": 44.0,
-        "coding": 50.0,
-        "overall": 39.5
-      },
-      "profile_costs": {
-        "orchestrator": 0.0,
-        "subagent": 0.0,
-        "coding": 0.0,
-        "overall": 0.0
-      },
-      "profile_values": {
-        "orchestrator": null,
-        "subagent": null,
-        "coding": null,
-        "overall": null
       }
     },
     {
@@ -2104,7 +2068,7 @@
       "input_per_mtok": 0.1,
       "output_per_mtok": 0.3,
       "is_free": false,
-      "context_length": 131072,
+      "context_length": 256000,
       "scores": {
         "overall": 32.0,
         "reasoning": 33.0,
