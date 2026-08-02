@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-26",
-  "prices_date": "2026-07-26",
-  "quality_date": "2026-07-26",
+  "generated_at": "2026-08-02",
+  "prices_date": "2026-08-02",
+  "quality_date": "2026-08-02",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
-  "model_count": 58,
-  "unmatched_price_only": 272,
+  "model_count": 55,
+  "unmatched_price_only": 266,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -37,7 +37,7 @@
         "overall": 600.0
       },
       "profile_values": {
-        "orchestrator": 0.05,
+        "orchestrator": 0.04,
         "subagent": 0.04,
         "coding": 0.04,
         "overall": 0.04
@@ -73,10 +73,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.14,
-        "subagent": 0.12,
-        "coding": 0.11,
-        "overall": 0.13
+        "orchestrator": 0.12,
+        "subagent": 0.1,
+        "coding": 0.1,
+        "overall": 0.11
       }
     },
     {
@@ -109,9 +109,9 @@
         "overall": 400.0
       },
       "profile_values": {
-        "orchestrator": 0.07,
-        "subagent": 0.06,
-        "coding": 0.06,
+        "orchestrator": 0.06,
+        "subagent": 0.05,
+        "coding": 0.05,
         "overall": 0.06
       }
     },
@@ -145,9 +145,9 @@
         "overall": 400.0
       },
       "profile_values": {
-        "orchestrator": 0.08,
+        "orchestrator": 0.07,
         "subagent": 0.06,
-        "coding": 0.06,
+        "coding": 0.05,
         "overall": 0.06
       }
     },
@@ -217,10 +217,10 @@
         "overall": 225.0
       },
       "profile_values": {
-        "orchestrator": 0.12,
-        "subagent": 0.1,
-        "coding": 0.1,
-        "overall": 0.1
+        "orchestrator": 0.1,
+        "subagent": 0.09,
+        "coding": 0.08,
+        "overall": 0.09
       }
     },
     {
@@ -253,10 +253,10 @@
         "overall": 112.5
       },
       "profile_values": {
-        "orchestrator": 0.21,
-        "subagent": 0.17,
-        "coding": 0.17,
-        "overall": 0.2
+        "orchestrator": 0.18,
+        "subagent": 0.15,
+        "coding": 0.14,
+        "overall": 0.18
       }
     },
     {
@@ -289,10 +289,10 @@
         "overall": 67.5
       },
       "profile_values": {
-        "orchestrator": 0.38,
-        "subagent": 0.3,
-        "coding": 0.3,
-        "overall": 0.32
+        "orchestrator": 0.32,
+        "subagent": 0.26,
+        "coding": 0.26,
+        "overall": 0.28
       }
     },
     {
@@ -301,8 +301,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.646,
-      "output_per_mtok": 2.72,
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 3.41,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -319,16 +319,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 23.29,
-        "subagent": 46.58,
-        "coding": 11.645,
-        "overall": 23.29
+        "orchestrator": 26.05,
+        "subagent": 52.1,
+        "coding": 13.025,
+        "overall": 26.05
       },
       "profile_values": {
-        "orchestrator": 1.07,
-        "subagent": 0.86,
-        "coding": 0.82,
-        "overall": 0.92
+        "orchestrator": 0.81,
+        "subagent": 0.67,
+        "coding": 0.63,
+        "overall": 0.73
       }
     },
     {
@@ -361,10 +361,10 @@
         "overall": 44.25
       },
       "profile_values": {
-        "orchestrator": 0.59,
-        "subagent": 0.48,
-        "coding": 0.48,
-        "overall": 0.48
+        "orchestrator": 0.5,
+        "subagent": 0.42,
+        "coding": 0.41,
+        "overall": 0.42
       }
     },
     {
@@ -397,46 +397,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.38,
-        "subagent": 0.23,
-        "coding": 0.2,
-        "overall": 0.31
-      }
-    },
-    {
-      "id": "openai/gpt-5.1-chat",
-      "name": "OpenAI: GPT-5.1 Chat",
-      "provider": "openai",
-      "hermes_ready": true,
-      "hermes_provider": "openai-codex",
-      "input_per_mtok": 1.25,
-      "output_per_mtok": 10.0,
-      "is_free": false,
-      "context_length": 128000,
-      "scores": {
-        "overall": 56.2,
-        "reasoning": 47.0,
-        "coding": 30.8,
-        "agents": null
-      },
-      "data_quality": "confirmed",
-      "profile_scores": {
-        "orchestrator": 47.0,
-        "subagent": 38.9,
-        "coding": 30.8,
-        "overall": 56.2
-      },
-      "profile_costs": {
-        "orchestrator": 68.75,
-        "subagent": 137.5,
-        "coding": 34.375,
-        "overall": 68.75
-      },
-      "profile_values": {
-        "orchestrator": 0.38,
-        "subagent": 0.23,
-        "coding": 0.2,
-        "overall": 0.31
+        "orchestrator": 0.32,
+        "subagent": 0.2,
+        "coding": 0.17,
+        "overall": 0.27
       }
     },
     {
@@ -469,10 +433,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.13,
-        "subagent": 0.11,
-        "coding": 0.11,
-        "overall": 0.1
+        "orchestrator": 0.11,
+        "subagent": 0.09,
+        "coding": 0.09,
+        "overall": 0.09
       }
     },
     {
@@ -541,10 +505,10 @@
         "overall": 96.25
       },
       "profile_values": {
-        "orchestrator": 0.21,
-        "subagent": 0.18,
-        "coding": 0.16,
-        "overall": 0.22
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.14,
+        "overall": 0.19
       }
     },
     {
@@ -577,10 +541,10 @@
         "overall": 96.25
       },
       "profile_values": {
-        "orchestrator": 0.21,
-        "subagent": 0.18,
-        "coding": 0.16,
-        "overall": 0.22
+        "orchestrator": 0.17,
+        "subagent": 0.16,
+        "coding": 0.14,
+        "overall": 0.19
       }
     },
     {
@@ -613,10 +577,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.12,
-        "subagent": 0.1,
-        "coding": 0.09,
-        "overall": 0.1
+        "orchestrator": 0.1,
+        "subagent": 0.09,
+        "coding": 0.08,
+        "overall": 0.09
       }
     },
     {
@@ -649,10 +613,10 @@
         "overall": 23.0
       },
       "profile_values": {
-        "orchestrator": 0.91,
-        "subagent": 0.91,
-        "coding": 0.82,
-        "overall": 0.87
+        "orchestrator": 0.77,
+        "subagent": 0.8,
+        "coding": 0.71,
+        "overall": 0.77
       }
     },
     {
@@ -685,10 +649,10 @@
         "overall": 10.875
       },
       "profile_values": {
-        "orchestrator": 1.73,
-        "subagent": 1.81,
-        "coding": 1.74,
-        "overall": 1.83
+        "orchestrator": 1.46,
+        "subagent": 1.57,
+        "coding": 1.49,
+        "overall": 1.62
       }
     },
     {
@@ -721,10 +685,10 @@
         "overall": 90.0
       },
       "profile_values": {
-        "orchestrator": 0.2,
-        "subagent": 0.22,
-        "coding": 0.21,
-        "overall": 0.22
+        "orchestrator": 0.17,
+        "subagent": 0.2,
+        "coding": 0.18,
+        "overall": 0.2
       }
     },
     {
@@ -757,10 +721,10 @@
         "overall": 90.0
       },
       "profile_values": {
-        "orchestrator": 0.2,
-        "subagent": 0.22,
-        "coding": 0.21,
-        "overall": 0.22
+        "orchestrator": 0.17,
+        "subagent": 0.2,
+        "coding": 0.18,
+        "overall": 0.2
       }
     },
     {
@@ -793,10 +757,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.15,
-        "subagent": 0.09,
-        "coding": 0.09,
-        "overall": 0.1
+        "orchestrator": 0.12,
+        "subagent": 0.08,
+        "coding": 0.07,
+        "overall": 0.09
       }
     },
     {
@@ -829,46 +793,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.33,
-        "subagent": 0.28,
-        "coding": 0.28,
-        "overall": 0.29
-      }
-    },
-    {
-      "id": "openai/gpt-5-chat",
-      "name": "OpenAI: GPT-5 Chat",
-      "provider": "openai",
-      "hermes_ready": true,
-      "hermes_provider": "openai-codex",
-      "input_per_mtok": 1.25,
-      "output_per_mtok": 10.0,
-      "is_free": false,
-      "context_length": 128000,
-      "scores": {
-        "overall": 53.0,
-        "reasoning": 52.0,
-        "coding": 43.0,
-        "agents": 34.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 41.2,
-        "subagent": 47.5,
-        "coding": 43.0,
-        "overall": 53.0
-      },
-      "profile_costs": {
-        "orchestrator": 68.75,
-        "subagent": 137.5,
-        "coding": 34.375,
-        "overall": 68.75
-      },
-      "profile_values": {
-        "orchestrator": 0.33,
-        "subagent": 0.28,
-        "coding": 0.28,
-        "overall": 0.29
+        "orchestrator": 0.28,
+        "subagent": 0.24,
+        "coding": 0.24,
+        "overall": 0.26
       }
     },
     {
@@ -901,10 +829,10 @@
         "overall": 200.0
       },
       "profile_values": {
-        "orchestrator": 0.11,
-        "subagent": 0.1,
-        "coding": 0.09,
-        "overall": 0.1
+        "orchestrator": 0.1,
+        "subagent": 0.08,
+        "coding": 0.08,
+        "overall": 0.09
       }
     },
     {
@@ -937,10 +865,10 @@
         "overall": 70.0
       },
       "profile_values": {
-        "orchestrator": 0.33,
-        "subagent": 0.3,
-        "coding": 0.27,
-        "overall": 0.28
+        "orchestrator": 0.28,
+        "subagent": 0.26,
+        "coding": 0.23,
+        "overall": 0.25
       }
     },
     {
@@ -973,10 +901,10 @@
         "overall": 15.925
       },
       "profile_values": {
-        "orchestrator": 1.3,
-        "subagent": 1.17,
-        "coding": 1.19,
-        "overall": 1.21
+        "orchestrator": 1.1,
+        "subagent": 1.02,
+        "coding": 1.02,
+        "overall": 1.07
       }
     },
     {
@@ -1009,10 +937,10 @@
         "overall": 120.0
       },
       "profile_values": {
-        "orchestrator": 0.13,
-        "subagent": 0.14,
-        "coding": 0.13,
-        "overall": 0.16
+        "orchestrator": 0.11,
+        "subagent": 0.12,
+        "coding": 0.11,
+        "overall": 0.14
       }
     },
     {
@@ -1045,10 +973,10 @@
         "overall": 7.0
       },
       "profile_values": {
-        "orchestrator": 2.58,
-        "subagent": 2.57,
-        "coding": 2.58,
-        "overall": 2.68
+        "orchestrator": 2.18,
+        "subagent": 2.24,
+        "coding": 2.22,
+        "overall": 2.37
       }
     },
     {
@@ -1081,10 +1009,10 @@
         "overall": 17.55
       },
       "profile_values": {
-        "orchestrator": 1.31,
-        "subagent": 0.89,
-        "coding": 0.74,
-        "overall": 1.06
+        "orchestrator": 1.11,
+        "subagent": 0.77,
+        "coding": 0.64,
+        "overall": 0.94
       }
     },
     {
@@ -1117,10 +1045,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.25,
-        "subagent": 0.27,
-        "coding": 0.27,
-        "overall": 0.27
+        "orchestrator": 0.21,
+        "subagent": 0.24,
+        "coding": 0.23,
+        "overall": 0.24
       }
     },
     {
@@ -1153,10 +1081,10 @@
         "overall": 68.75
       },
       "profile_values": {
-        "orchestrator": 0.25,
-        "subagent": 0.27,
-        "coding": 0.27,
-        "overall": 0.27
+        "orchestrator": 0.21,
+        "subagent": 0.24,
+        "coding": 0.23,
+        "overall": 0.24
       }
     },
     {
@@ -1189,10 +1117,10 @@
         "overall": 22.8
       },
       "profile_values": {
-        "orchestrator": 1.02,
-        "subagent": 0.7,
-        "coding": 0.59,
-        "overall": 0.81
+        "orchestrator": 0.86,
+        "subagent": 0.61,
+        "coding": 0.51,
+        "overall": 0.71
       }
     },
     {
@@ -1225,10 +1153,10 @@
         "overall": 6.035
       },
       "profile_values": {
-        "orchestrator": 2.81,
-        "subagent": 3.02,
-        "coding": 3.0,
-        "overall": 3.01
+        "orchestrator": 2.38,
+        "subagent": 2.63,
+        "coding": 2.58,
+        "overall": 2.67
       }
     },
     {
@@ -1261,10 +1189,10 @@
         "overall": 6.1
       },
       "profile_values": {
-        "orchestrator": 2.78,
-        "subagent": 2.98,
-        "coding": 2.97,
-        "overall": 2.98
+        "orchestrator": 2.35,
+        "subagent": 2.6,
+        "coding": 2.55,
+        "overall": 2.64
       }
     },
     {
@@ -1297,10 +1225,10 @@
         "overall": 31.2
       },
       "profile_values": {
-        "orchestrator": 0.65,
-        "subagent": 0.59,
-        "coding": 0.59,
-        "overall": 0.58
+        "orchestrator": 0.55,
+        "subagent": 0.51,
+        "coding": 0.51,
+        "overall": 0.51
       }
     },
     {
@@ -1333,10 +1261,10 @@
         "overall": 31.2
       },
       "profile_values": {
-        "orchestrator": 0.65,
-        "subagent": 0.59,
-        "coding": 0.59,
-        "overall": 0.58
+        "orchestrator": 0.55,
+        "subagent": 0.51,
+        "coding": 0.51,
+        "overall": 0.51
       }
     },
     {
@@ -1369,10 +1297,10 @@
         "overall": 20.05
       },
       "profile_values": {
-        "orchestrator": 0.99,
-        "subagent": 0.86,
-        "coding": 0.84,
-        "overall": 0.89
+        "orchestrator": 0.84,
+        "subagent": 0.75,
+        "coding": 0.72,
+        "overall": 0.79
       }
     },
     {
@@ -1405,10 +1333,10 @@
         "overall": 21.5
       },
       "profile_values": {
-        "orchestrator": 0.92,
-        "subagent": 0.8,
-        "coding": 0.78,
-        "overall": 0.83
+        "orchestrator": 0.78,
+        "subagent": 0.7,
+        "coding": 0.67,
+        "overall": 0.73
       }
     },
     {
@@ -1441,10 +1369,10 @@
         "overall": 21.5
       },
       "profile_values": {
-        "orchestrator": 0.92,
-        "subagent": 0.8,
-        "coding": 0.78,
-        "overall": 0.83
+        "orchestrator": 0.78,
+        "subagent": 0.7,
+        "coding": 0.67,
+        "overall": 0.73
       }
     },
     {
@@ -1477,10 +1405,10 @@
         "overall": 120.0
       },
       "profile_values": {
-        "orchestrator": 0.13,
-        "subagent": 0.12,
-        "coding": 0.11,
-        "overall": 0.15
+        "orchestrator": 0.11,
+        "subagent": 0.1,
+        "coding": 0.1,
+        "overall": 0.13
       }
     },
     {
@@ -1513,10 +1441,10 @@
         "overall": 22.5
       },
       "profile_values": {
-        "orchestrator": 0.63,
-        "subagent": 0.7,
-        "coding": 0.59,
-        "overall": 0.77
+        "orchestrator": 0.53,
+        "subagent": 0.61,
+        "coding": 0.51,
+        "overall": 0.68
       }
     },
     {
@@ -1549,10 +1477,10 @@
         "overall": 17.0
       },
       "profile_values": {
-        "orchestrator": 0.92,
-        "subagent": 1.01,
-        "coding": 1.01,
-        "overall": 1.01
+        "orchestrator": 0.78,
+        "subagent": 0.88,
+        "coding": 0.87,
+        "overall": 0.9
       }
     },
     {
@@ -1585,10 +1513,10 @@
         "overall": 17.0
       },
       "profile_values": {
-        "orchestrator": 0.92,
-        "subagent": 1.01,
-        "coding": 1.01,
-        "overall": 1.01
+        "orchestrator": 0.78,
+        "subagent": 0.88,
+        "coding": 0.87,
+        "overall": 0.9
       }
     },
     {
@@ -1621,10 +1549,10 @@
         "overall": 47.5
       },
       "profile_values": {
-        "orchestrator": 0.39,
-        "subagent": 0.35,
-        "coding": 0.35,
-        "overall": 0.36
+        "orchestrator": 0.33,
+        "subagent": 0.31,
+        "coding": 0.3,
+        "overall": 0.32
       }
     },
     {
@@ -1657,10 +1585,10 @@
         "overall": 13.75
       },
       "profile_values": {
-        "orchestrator": 1.36,
-        "subagent": 1.22,
-        "coding": 1.22,
-        "overall": 1.25
+        "orchestrator": 1.15,
+        "subagent": 1.06,
+        "coding": 1.05,
+        "overall": 1.11
       }
     },
     {
@@ -1693,10 +1621,10 @@
         "overall": 38.5
       },
       "profile_values": {
-        "orchestrator": 0.5,
-        "subagent": 0.48,
-        "coding": 0.44,
-        "overall": 0.44
+        "orchestrator": 0.43,
+        "subagent": 0.42,
+        "coding": 0.37,
+        "overall": 0.39
       }
     },
     {
@@ -1729,10 +1657,10 @@
         "overall": 38.5
       },
       "profile_values": {
-        "orchestrator": 0.5,
-        "subagent": 0.48,
-        "coding": 0.44,
-        "overall": 0.44
+        "orchestrator": 0.43,
+        "subagent": 0.42,
+        "coding": 0.37,
+        "overall": 0.39
       }
     },
     {
@@ -1765,10 +1693,10 @@
         "overall": 33.75
       },
       "profile_values": {
-        "orchestrator": 0.34,
-        "subagent": 0.43,
-        "coding": 0.43,
-        "overall": 0.47
+        "orchestrator": 0.29,
+        "subagent": 0.38,
+        "coding": 0.37,
+        "overall": 0.42
       }
     },
     {
@@ -1801,10 +1729,10 @@
         "overall": 8.5
       },
       "profile_values": {
-        "orchestrator": 1.76,
-        "subagent": 1.91,
-        "coding": 1.92,
-        "overall": 1.85
+        "orchestrator": 1.49,
+        "subagent": 1.66,
+        "coding": 1.65,
+        "overall": 1.64
       }
     },
     {
@@ -1837,10 +1765,10 @@
         "overall": 15.0
       },
       "profile_values": {
-        "orchestrator": 1.21,
-        "subagent": 1.12,
-        "coding": 1.12,
-        "overall": 1.02
+        "orchestrator": 1.02,
+        "subagent": 0.98,
+        "coding": 0.96,
+        "overall": 0.91
       }
     },
     {
@@ -1873,10 +1801,10 @@
         "overall": 3.0
       },
       "profile_values": {
-        "orchestrator": 5.0,
-        "subagent": 5.0,
-        "coding": 5.0,
-        "overall": 5.0
+        "orchestrator": 4.23,
+        "subagent": 4.35,
+        "coding": 4.3,
+        "overall": 4.43
       }
     },
     {
@@ -1909,10 +1837,10 @@
         "overall": 9.5
       },
       "profile_values": {
-        "orchestrator": 1.65,
-        "subagent": 1.85,
-        "coding": 2.32,
-        "overall": 1.56
+        "orchestrator": 1.39,
+        "subagent": 1.61,
+        "coding": 2.0,
+        "overall": 1.38
       }
     },
     {
@@ -1945,10 +1873,10 @@
         "overall": 40.0
       },
       "profile_values": {
-        "orchestrator": 0.35,
-        "subagent": 0.34,
-        "coding": 0.33,
-        "overall": 0.36
+        "orchestrator": 0.3,
+        "subagent": 0.29,
+        "coding": 0.28,
+        "overall": 0.32
       }
     },
     {
@@ -1981,46 +1909,10 @@
         "overall": 87.5
       },
       "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.16,
-        "coding": 0.16,
-        "overall": 0.16
-      }
-    },
-    {
-      "id": "openai/gpt-4o-search-preview",
-      "name": "OpenAI: GPT-4o Search Preview",
-      "provider": "openai",
-      "hermes_ready": true,
-      "hermes_provider": "openai-codex",
-      "input_per_mtok": 2.5,
-      "output_per_mtok": 10.0,
-      "is_free": false,
-      "context_length": 128000,
-      "scores": {
-        "overall": 37.0,
-        "reasoning": 38.0,
-        "coding": 32.0,
-        "agents": 20.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 27.2,
-        "subagent": 35.0,
-        "coding": 32.0,
-        "overall": 37.0
-      },
-      "profile_costs": {
-        "orchestrator": 87.5,
-        "subagent": 175.0,
-        "coding": 43.75,
-        "overall": 87.5
-      },
-      "profile_values": {
-        "orchestrator": 0.17,
-        "subagent": 0.16,
-        "coding": 0.16,
-        "overall": 0.16
+        "orchestrator": 0.14,
+        "subagent": 0.14,
+        "coding": 0.14,
+        "overall": 0.14
       }
     },
     {
@@ -2053,10 +1945,10 @@
         "overall": 2.75
       },
       "profile_values": {
-        "orchestrator": 4.89,
-        "subagent": 4.51,
-        "coding": 4.49,
-        "overall": 4.77
+        "orchestrator": 4.13,
+        "subagent": 3.93,
+        "coding": 3.86,
+        "overall": 4.23
       }
     },
     {
@@ -2065,8 +1957,8 @@
       "provider": "mistralai",
       "hermes_ready": false,
       "hermes_provider": null,
-      "input_per_mtok": 0.1,
-      "output_per_mtok": 0.3,
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.2,
       "is_free": false,
       "context_length": 256000,
       "scores": {
@@ -2083,16 +1975,16 @@
         "overall": 32.0
       },
       "profile_costs": {
-        "orchestrator": 3.0,
-        "subagent": 6.0,
-        "coding": 1.5,
-        "overall": 3.0
+        "orchestrator": 2.125,
+        "subagent": 4.25,
+        "coding": 1.0625,
+        "overall": 2.125
       },
       "profile_values": {
-        "orchestrator": 4.19,
-        "subagent": 4.07,
-        "coding": 4.12,
-        "overall": 4.0
+        "orchestrator": 5.0,
+        "subagent": 5.0,
+        "coding": 5.0,
+        "overall": 5.0
       }
     }
   ],
