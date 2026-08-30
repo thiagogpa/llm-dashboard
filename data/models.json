@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23",
-  "prices_date": "2026-08-23",
-  "quality_date": "2026-08-23",
+  "generated_at": "2026-08-30",
+  "prices_date": "2026-08-30",
+  "quality_date": "2026-08-30",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 55,
-  "unmatched_price_only": 350,
+  "unmatched_price_only": 324,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -625,8 +625,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.413772,
-      "output_per_mtok": 0.827544,
+      "input_per_mtok": 0.457794,
+      "output_per_mtok": 0.915588,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -643,16 +643,16 @@
         "overall": 53.1
       },
       "profile_costs": {
-        "orchestrator": 10.3443,
-        "subagent": 20.6886,
-        "coding": 5.1722,
-        "overall": 10.3443
+        "orchestrator": 11.4449,
+        "subagent": 22.8897,
+        "coding": 5.7224,
+        "overall": 11.4449
       },
       "profile_values": {
-        "orchestrator": 1.54,
-        "subagent": 1.66,
-        "coding": 1.57,
-        "overall": 1.7
+        "orchestrator": 1.39,
+        "subagent": 1.5,
+        "coding": 1.42,
+        "overall": 1.54
       }
     },
     {
@@ -1093,8 +1093,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.45,
-      "output_per_mtok": 2.25,
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 3.0,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -1111,16 +1111,16 @@
         "overall": 49.0
       },
       "profile_costs": {
-        "orchestrator": 18.0,
-        "subagent": 36.0,
-        "coding": 9.0,
-        "overall": 18.0
+        "orchestrator": 24.0,
+        "subagent": 48.0,
+        "coding": 12.0,
+        "overall": 24.0
       },
       "profile_values": {
-        "orchestrator": 1.09,
-        "subagent": 0.78,
-        "coding": 0.65,
-        "overall": 0.9
+        "orchestrator": 0.82,
+        "subagent": 0.58,
+        "coding": 0.48,
+        "overall": 0.68
       }
     },
     {
@@ -1129,8 +1129,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.26,
-      "output_per_mtok": 0.38,
+      "input_per_mtok": 0.269,
+      "output_per_mtok": 0.4,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1147,16 +1147,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 5.8,
-        "subagent": 11.6,
-        "coding": 2.9,
-        "overall": 5.8
+        "orchestrator": 6.035,
+        "subagent": 12.07,
+        "coding": 3.0175,
+        "overall": 6.035
       },
       "profile_values": {
-        "orchestrator": 2.47,
-        "subagent": 2.73,
-        "coding": 2.68,
-        "overall": 2.78
+        "orchestrator": 2.38,
+        "subagent": 2.63,
+        "coding": 2.58,
+        "overall": 2.67
       }
     },
     {
@@ -1777,8 +1777,8 @@
       "provider": "meta-llama",
       "hermes_ready": false,
       "hermes_provider": null,
-      "input_per_mtok": 0.1,
-      "output_per_mtok": 0.3,
+      "input_per_mtok": 0.11,
+      "output_per_mtok": 0.34,
       "is_free": false,
       "context_length": 1310720,
       "scores": {
@@ -1795,16 +1795,16 @@
         "overall": 40.0
       },
       "profile_costs": {
-        "orchestrator": 3.0,
-        "subagent": 6.0,
-        "coding": 1.5,
-        "overall": 3.0
+        "orchestrator": 3.35,
+        "subagent": 6.7,
+        "coding": 1.675,
+        "overall": 3.35
       },
       "profile_values": {
-        "orchestrator": 4.23,
-        "subagent": 4.35,
-        "coding": 4.3,
-        "overall": 4.43
+        "orchestrator": 3.78,
+        "subagent": 3.9,
+        "coding": 3.85,
+        "overall": 3.96
       }
     },
     {
