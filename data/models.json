@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-06",
-  "prices_date": "2026-09-06",
-  "quality_date": "2026-09-06",
+  "generated_at": "2026-09-13",
+  "prices_date": "2026-09-13",
+  "quality_date": "2026-09-13",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 53,
-  "unmatched_price_only": 360,
+  "unmatched_price_only": 371,
   "models": [
     {
       "id": "anthropic/claude-opus-4",
@@ -553,8 +553,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.72819,
-      "output_per_mtok": 1.45638,
+      "input_per_mtok": 1.6,
+      "output_per_mtok": 3.2,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -571,16 +571,16 @@
         "overall": 53.1
       },
       "profile_costs": {
-        "orchestrator": 18.2048,
-        "subagent": 36.4095,
-        "coding": 9.1024,
-        "overall": 18.2048
+        "orchestrator": 40.0,
+        "subagent": 80.0,
+        "coding": 20.0,
+        "overall": 40.0
       },
       "profile_values": {
-        "orchestrator": 0.87,
-        "subagent": 0.94,
-        "coding": 0.89,
-        "overall": 0.97
+        "orchestrator": 0.4,
+        "subagent": 0.43,
+        "coding": 0.41,
+        "overall": 0.44
       }
     },
     {
@@ -1633,8 +1633,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.55,
-      "output_per_mtok": 1.65,
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.95,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1651,16 +1651,16 @@
         "overall": 42.0
       },
       "profile_costs": {
-        "orchestrator": 16.5,
-        "subagent": 33.0,
-        "coding": 8.25,
-        "overall": 16.5
+        "orchestrator": 8.5,
+        "subagent": 17.0,
+        "coding": 4.25,
+        "overall": 8.5
       },
       "profile_values": {
-        "orchestrator": 0.77,
-        "subagent": 0.86,
-        "coding": 0.85,
-        "overall": 0.85
+        "orchestrator": 1.49,
+        "subagent": 1.66,
+        "coding": 1.65,
+        "overall": 1.64
       }
     },
     {
@@ -1888,7 +1888,7 @@
       "input_per_mtok": 0.075,
       "output_per_mtok": 0.2,
       "is_free": false,
-      "context_length": 131072,
+      "context_length": 256000,
       "scores": {
         "overall": 32.0,
         "reasoning": 33.0,
