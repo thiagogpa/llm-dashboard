@@ -1,48 +1,12 @@
 {
-  "generated_at": "2026-09-20",
-  "prices_date": "2026-09-20",
-  "quality_date": "2026-09-20",
+  "generated_at": "2026-09-27",
+  "prices_date": "2026-09-27",
+  "quality_date": "2026-09-27",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 52,
-  "unmatched_price_only": 371,
+  "unmatched_price_only": 382,
   "models": [
-    {
-      "id": "anthropic/claude-opus-4",
-      "name": "Anthropic: Claude Opus 4",
-      "provider": "anthropic",
-      "hermes_ready": true,
-      "hermes_provider": "anthropic",
-      "input_per_mtok": 15.0,
-      "output_per_mtok": 75.0,
-      "is_free": false,
-      "context_length": 200000,
-      "scores": {
-        "overall": 67.6,
-        "reasoning": 71.1,
-        "coding": 56.1,
-        "agents": 47.2
-      },
-      "data_quality": "confirmed",
-      "profile_scores": {
-        "orchestrator": 56.76,
-        "subagent": 63.6,
-        "coding": 56.1,
-        "overall": 67.6
-      },
-      "profile_costs": {
-        "orchestrator": 600.0,
-        "subagent": 1200.0,
-        "coding": 300.0,
-        "overall": 600.0
-      },
-      "profile_values": {
-        "orchestrator": 0.05,
-        "subagent": 0.04,
-        "coding": 0.04,
-        "overall": 0.04
-      }
-    },
     {
       "id": "anthropic/claude-opus-4.8",
       "name": "Anthropic: Claude Opus 4.8",
@@ -553,8 +517,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.422298,
-      "output_per_mtok": 0.844596,
+      "input_per_mtok": 0.348,
+      "output_per_mtok": 0.696,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -571,16 +535,16 @@
         "overall": 53.1
       },
       "profile_costs": {
-        "orchestrator": 10.5574,
-        "subagent": 21.1149,
-        "coding": 5.2787,
-        "overall": 10.5574
+        "orchestrator": 8.7,
+        "subagent": 17.4,
+        "coding": 4.35,
+        "overall": 8.7
       },
       "profile_values": {
-        "orchestrator": 1.78,
-        "subagent": 1.86,
-        "coding": 1.79,
-        "overall": 1.89
+        "orchestrator": 2.16,
+        "subagent": 2.26,
+        "coding": 2.17,
+        "overall": 2.29
       }
     },
     {
@@ -1661,6 +1625,42 @@
         "subagent": 1.91,
         "coding": 1.92,
         "overall": 1.85
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "name": "Mistral: Mistral Large 3 2512",
+      "provider": "mistralai",
+      "hermes_ready": false,
+      "hermes_provider": null,
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 1.5,
+      "is_free": false,
+      "context_length": 262144,
+      "scores": {
+        "overall": 41.0,
+        "reasoning": 46.0,
+        "coding": 38.0,
+        "agents": 24.0
+      },
+      "data_quality": "estimated",
+      "profile_scores": {
+        "orchestrator": 32.8,
+        "subagent": 42.0,
+        "coding": 38.0,
+        "overall": 41.0
+      },
+      "profile_costs": {
+        "orchestrator": 15.0,
+        "subagent": 30.0,
+        "coding": 7.5,
+        "overall": 15.0
+      },
+      "profile_values": {
+        "orchestrator": 1.21,
+        "subagent": 1.12,
+        "coding": 1.12,
+        "overall": 1.02
       }
     },
     {
