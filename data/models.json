@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-27",
-  "prices_date": "2026-09-27",
-  "quality_date": "2026-09-27",
+  "generated_at": "2026-10-04",
+  "prices_date": "2026-10-04",
+  "quality_date": "2026-10-04",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 52,
-  "unmatched_price_only": 382,
+  "unmatched_price_only": 389,
   "models": [
     {
       "id": "anthropic/claude-opus-4.8",
@@ -517,8 +517,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.348,
-      "output_per_mtok": 0.696,
+      "input_per_mtok": 0.2088,
+      "output_per_mtok": 0.4176,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -535,16 +535,16 @@
         "overall": 53.1
       },
       "profile_costs": {
-        "orchestrator": 8.7,
-        "subagent": 17.4,
-        "coding": 4.35,
-        "overall": 8.7
+        "orchestrator": 5.22,
+        "subagent": 10.44,
+        "coding": 2.61,
+        "overall": 5.22
       },
       "profile_values": {
-        "orchestrator": 2.16,
-        "subagent": 2.26,
-        "coding": 2.17,
-        "overall": 2.29
+        "orchestrator": 3.6,
+        "subagent": 3.77,
+        "coding": 3.62,
+        "overall": 3.81
       }
     },
     {
@@ -1021,8 +1021,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.269,
-      "output_per_mtok": 0.4,
+      "input_per_mtok": 0.28,
+      "output_per_mtok": 0.42,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1039,16 +1039,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 6.035,
-        "subagent": 12.07,
-        "coding": 3.0175,
-        "overall": 6.035
+        "orchestrator": 6.3,
+        "subagent": 12.6,
+        "coding": 3.15,
+        "overall": 6.3
       },
       "profile_values": {
-        "orchestrator": 2.81,
-        "subagent": 3.02,
-        "coding": 3.0,
-        "overall": 3.01
+        "orchestrator": 2.7,
+        "subagent": 2.89,
+        "coding": 2.87,
+        "overall": 2.89
       }
     },
     {
