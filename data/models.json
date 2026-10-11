@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04",
-  "prices_date": "2026-10-04",
-  "quality_date": "2026-10-04",
+  "generated_at": "2026-10-11",
+  "prices_date": "2026-10-11",
+  "quality_date": "2026-10-11",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
-  "model_count": 52,
-  "unmatched_price_only": 389,
+  "model_count": 49,
+  "unmatched_price_only": 384,
   "models": [
     {
       "id": "anthropic/claude-opus-4.8",
@@ -229,8 +229,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.95,
-      "output_per_mtok": 4.0,
+      "input_per_mtok": 0.65,
+      "output_per_mtok": 3.41,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -247,16 +247,16 @@
         "overall": 57.3
       },
       "profile_costs": {
-        "orchestrator": 34.25,
-        "subagent": 68.5,
-        "coding": 17.125,
-        "overall": 34.25
+        "orchestrator": 26.8,
+        "subagent": 53.6,
+        "coding": 13.4,
+        "overall": 26.8
       },
       "profile_values": {
-        "orchestrator": 0.73,
-        "subagent": 0.59,
-        "coding": 0.56,
-        "overall": 0.63
+        "orchestrator": 0.93,
+        "subagent": 0.75,
+        "coding": 0.71,
+        "overall": 0.8
       }
     },
     {
@@ -764,42 +764,6 @@
       }
     },
     {
-      "id": "qwen/qwen3-235b-a22b",
-      "name": "Qwen: Qwen3 235B A22B",
-      "provider": "qwen",
-      "hermes_ready": true,
-      "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.455,
-      "output_per_mtok": 1.82,
-      "is_free": false,
-      "context_length": 131072,
-      "scores": {
-        "overall": 51.5,
-        "reasoning": 50.5,
-        "coding": 43.0,
-        "agents": 29.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 37.6,
-        "subagent": 46.75,
-        "coding": 43.0,
-        "overall": 51.5
-      },
-      "profile_costs": {
-        "orchestrator": 15.925,
-        "subagent": 31.85,
-        "coding": 7.9625,
-        "overall": 15.925
-      },
-      "profile_values": {
-        "orchestrator": 1.3,
-        "subagent": 1.17,
-        "coding": 1.19,
-        "overall": 1.21
-      }
-    },
-    {
       "id": "anthropic/claude-sonnet-4.6",
       "name": "Anthropic: Claude Sonnet 4.6",
       "provider": "anthropic",
@@ -985,8 +949,8 @@
       "provider": "moonshotai",
       "hermes_ready": true,
       "hermes_provider": "kimi-coding",
-      "input_per_mtok": 0.45,
-      "output_per_mtok": 2.25,
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.5,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -1003,16 +967,16 @@
         "overall": 49.0
       },
       "profile_costs": {
-        "orchestrator": 18.0,
-        "subagent": 36.0,
-        "coding": 9.0,
-        "overall": 18.0
+        "orchestrator": 20.0,
+        "subagent": 40.0,
+        "coding": 10.0,
+        "overall": 20.0
       },
       "profile_values": {
-        "orchestrator": 1.29,
-        "subagent": 0.89,
-        "coding": 0.75,
-        "overall": 1.02
+        "orchestrator": 1.16,
+        "subagent": 0.8,
+        "coding": 0.67,
+        "overall": 0.92
       }
     },
     {
@@ -1021,8 +985,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.28,
-      "output_per_mtok": 0.42,
+      "input_per_mtok": 0.259,
+      "output_per_mtok": 0.8,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1039,16 +1003,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 6.3,
-        "subagent": 12.6,
-        "coding": 3.15,
-        "overall": 6.3
+        "orchestrator": 7.885,
+        "subagent": 15.77,
+        "coding": 3.9425,
+        "overall": 7.885
       },
       "profile_values": {
-        "orchestrator": 2.7,
-        "subagent": 2.89,
-        "coding": 2.87,
-        "overall": 2.89
+        "orchestrator": 2.15,
+        "subagent": 2.31,
+        "coding": 2.29,
+        "overall": 2.31
       }
     },
     {
@@ -1085,78 +1049,6 @@
         "subagent": 2.98,
         "coding": 2.97,
         "overall": 2.98
-      }
-    },
-    {
-      "id": "qwen/qwen3-max",
-      "name": "Qwen: Qwen3 Max",
-      "provider": "qwen",
-      "hermes_ready": true,
-      "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.78,
-      "output_per_mtok": 3.9,
-      "is_free": false,
-      "context_length": 262144,
-      "scores": {
-        "overall": 48.0,
-        "reasoning": 50.0,
-        "coding": 42.0,
-        "agents": 28.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 36.8,
-        "subagent": 46.0,
-        "coding": 42.0,
-        "overall": 48.0
-      },
-      "profile_costs": {
-        "orchestrator": 31.2,
-        "subagent": 62.4,
-        "coding": 15.6,
-        "overall": 31.2
-      },
-      "profile_values": {
-        "orchestrator": 0.65,
-        "subagent": 0.59,
-        "coding": 0.59,
-        "overall": 0.58
-      }
-    },
-    {
-      "id": "qwen/qwen3-max-thinking",
-      "name": "Qwen: Qwen3 Max Thinking",
-      "provider": "qwen",
-      "hermes_ready": true,
-      "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.78,
-      "output_per_mtok": 3.9,
-      "is_free": false,
-      "context_length": 262144,
-      "scores": {
-        "overall": 48.0,
-        "reasoning": 50.0,
-        "coding": 42.0,
-        "agents": 28.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 36.8,
-        "subagent": 46.0,
-        "coding": 42.0,
-        "overall": 48.0
-      },
-      "profile_costs": {
-        "orchestrator": 31.2,
-        "subagent": 62.4,
-        "coding": 15.6,
-        "overall": 31.2
-      },
-      "profile_values": {
-        "orchestrator": 0.65,
-        "subagent": 0.59,
-        "coding": 0.59,
-        "overall": 0.58
       }
     },
     {
