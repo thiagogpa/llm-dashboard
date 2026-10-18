@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11",
-  "prices_date": "2026-10-11",
-  "quality_date": "2026-10-11",
+  "generated_at": "2026-10-18",
+  "prices_date": "2026-10-18",
+  "quality_date": "2026-10-18",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
   "model_count": 49,
-  "unmatched_price_only": 384,
+  "unmatched_price_only": 396,
   "models": [
     {
       "id": "anthropic/claude-opus-4.8",
@@ -841,8 +841,8 @@
       "provider": "qwen",
       "hermes_ready": true,
       "hermes_provider": "qwen-oauth",
-      "input_per_mtok": 0.55,
-      "output_per_mtok": 3.5,
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.6,
       "is_free": false,
       "context_length": 262144,
       "scores": {
@@ -859,10 +859,10 @@
         "overall": 49.8
       },
       "profile_costs": {
-        "orchestrator": 25.75,
-        "subagent": 51.5,
-        "coding": 12.875,
-        "overall": 25.75
+        "orchestrator": 25.5,
+        "subagent": 51.0,
+        "coding": 12.75,
+        "overall": 25.5
       },
       "profile_values": {
         "orchestrator": 0.9,
@@ -985,8 +985,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.259,
-      "output_per_mtok": 0.8,
+      "input_per_mtok": 0.28,
+      "output_per_mtok": 0.42,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -1003,16 +1003,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 7.885,
-        "subagent": 15.77,
-        "coding": 3.9425,
-        "overall": 7.885
+        "orchestrator": 6.3,
+        "subagent": 12.6,
+        "coding": 3.15,
+        "overall": 6.3
       },
       "profile_values": {
-        "orchestrator": 2.15,
-        "subagent": 2.31,
-        "coding": 2.29,
-        "overall": 2.31
+        "orchestrator": 2.7,
+        "subagent": 2.89,
+        "coding": 2.87,
+        "overall": 2.89
       }
     },
     {
