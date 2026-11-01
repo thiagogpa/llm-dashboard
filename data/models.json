@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25",
-  "prices_date": "2026-10-25",
-  "quality_date": "2026-10-25",
+  "generated_at": "2026-11-01",
+  "prices_date": "2026-11-01",
+  "quality_date": "2026-11-01",
   "quality_source": "seed (no API key)",
   "subs_date": "2026-06-15",
-  "model_count": 48,
-  "unmatched_price_only": 393,
+  "model_count": 46,
+  "unmatched_price_only": 380,
   "models": [
     {
       "id": "anthropic/claude-opus-4.8",
@@ -481,8 +481,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.2088,
-      "output_per_mtok": 0.4176,
+      "input_per_mtok": 1.6,
+      "output_per_mtok": 3.2,
       "is_free": false,
       "context_length": 1048576,
       "scores": {
@@ -499,16 +499,16 @@
         "overall": 53.1
       },
       "profile_costs": {
-        "orchestrator": 5.22,
-        "subagent": 10.44,
-        "coding": 2.61,
-        "overall": 5.22
+        "orchestrator": 40.0,
+        "subagent": 80.0,
+        "coding": 20.0,
+        "overall": 40.0
       },
       "profile_values": {
-        "orchestrator": 3.04,
-        "subagent": 3.28,
-        "coding": 3.11,
-        "overall": 3.38
+        "orchestrator": 0.4,
+        "subagent": 0.43,
+        "coding": 0.41,
+        "overall": 0.44
       }
     },
     {
@@ -949,8 +949,8 @@
       "provider": "deepseek",
       "hermes_ready": true,
       "hermes_provider": "deepseek",
-      "input_per_mtok": 0.28,
-      "output_per_mtok": 0.42,
+      "input_per_mtok": 0.26,
+      "output_per_mtok": 0.38,
       "is_free": false,
       "context_length": 163840,
       "scores": {
@@ -967,16 +967,16 @@
         "overall": 48.5
       },
       "profile_costs": {
-        "orchestrator": 6.3,
-        "subagent": 12.6,
-        "coding": 3.15,
-        "overall": 6.3
+        "orchestrator": 5.8,
+        "subagent": 11.6,
+        "coding": 2.9,
+        "overall": 5.8
       },
       "profile_values": {
-        "orchestrator": 2.28,
-        "subagent": 2.52,
-        "coding": 2.47,
-        "overall": 2.56
+        "orchestrator": 2.47,
+        "subagent": 2.73,
+        "coding": 2.68,
+        "overall": 2.78
       }
     },
     {
@@ -1337,78 +1337,6 @@
         "subagent": 1.06,
         "coding": 1.05,
         "overall": 1.11
-      }
-    },
-    {
-      "id": "openai/o4-mini",
-      "name": "OpenAI: o4 Mini",
-      "provider": "openai",
-      "hermes_ready": true,
-      "hermes_provider": "openai-codex",
-      "input_per_mtok": 1.1,
-      "output_per_mtok": 4.4,
-      "is_free": false,
-      "context_length": 200000,
-      "scores": {
-        "overall": 45.0,
-        "reasoning": 55.0,
-        "coding": 38.0,
-        "agents": 22.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 35.2,
-        "subagent": 46.5,
-        "coding": 38.0,
-        "overall": 45.0
-      },
-      "profile_costs": {
-        "orchestrator": 38.5,
-        "subagent": 77.0,
-        "coding": 19.25,
-        "overall": 38.5
-      },
-      "profile_values": {
-        "orchestrator": 0.43,
-        "subagent": 0.42,
-        "coding": 0.37,
-        "overall": 0.39
-      }
-    },
-    {
-      "id": "openai/o4-mini-high",
-      "name": "OpenAI: o4 Mini High",
-      "provider": "openai",
-      "hermes_ready": true,
-      "hermes_provider": "openai-codex",
-      "input_per_mtok": 1.1,
-      "output_per_mtok": 4.4,
-      "is_free": false,
-      "context_length": 200000,
-      "scores": {
-        "overall": 45.0,
-        "reasoning": 55.0,
-        "coding": 38.0,
-        "agents": 22.0
-      },
-      "data_quality": "estimated",
-      "profile_scores": {
-        "orchestrator": 35.2,
-        "subagent": 46.5,
-        "coding": 38.0,
-        "overall": 45.0
-      },
-      "profile_costs": {
-        "orchestrator": 38.5,
-        "subagent": 77.0,
-        "coding": 19.25,
-        "overall": 38.5
-      },
-      "profile_values": {
-        "orchestrator": 0.43,
-        "subagent": 0.42,
-        "coding": 0.37,
-        "overall": 0.39
       }
     },
     {
